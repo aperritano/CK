@@ -1,5 +1,4 @@
 // @flow
-
 import cuid from 'cuid';
 import { observable, action, computed } from 'mobx';
 import { drawPath } from '../utils/path';
@@ -21,7 +20,7 @@ const getType = item => {
 type ConnectableT = Activity | Operator;
 
 export default class Connection extends Elem {
-  klass: string;
+  klass: number;
   id: string;
   @observable source: ConnectableT;
   @observable target: ConnectableT;
