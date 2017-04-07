@@ -20,7 +20,7 @@ const getType = item => {
 type ConnectableT = Activity | Operator;
 
 export default class Connection extends Elem {
-  klass: number;
+  klass: string;
   id: string;
   @observable source: ConnectableT;
   @observable target: ConnectableT;
