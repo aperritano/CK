@@ -1,0 +1,12 @@
+sudo: required
+
+language: javascript
+
+services:
+  - docker
+
+before_install:
+  - docker build -t chili-epfl/frog .
+
+script:
+  - docker run chili-epfl/frog 
