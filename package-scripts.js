@@ -1,3 +1,4 @@
+// scripts
 module.exports = {
   scripts: {
     test: 'flow --quiet && npm run -s start eslint-test',
