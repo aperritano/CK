@@ -43,4 +43,5 @@ Meteor.methods({
     Logs.remove({});
   },
   'test.respond': length => 'response ' + new Array(length).join('*')
+  'test.respond2': arg => 0
 });
