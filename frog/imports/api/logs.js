@@ -42,7 +42,7 @@ Meteor.methods({
   'logs.flush': () => {
     Logs.remove({});
   },
-  'test.respond': length => 'response ' + new Array(length).join('*')
-  'test.respond2': arg => 0
-  'test.respond3': arg => arg
+  'test.variableSizedReturnValue': length => 'response ' + new Array(length).join('*'),
+  'test.variableSizedArgFixedSizedReturnValue': arg => 0,
+  'test.variableSizedArgAndSameReturnValue': arg => arg
 });
