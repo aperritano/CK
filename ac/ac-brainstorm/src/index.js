@@ -20,7 +20,7 @@ const mergeFunction = (obj: dataUnitStructT, dataFn: Object) => {
 };
 
 export default ({
-  id: 'ac-brainstorm',
+  id: 3,
   ActivityRunner,
   Dashboard,
   config,
