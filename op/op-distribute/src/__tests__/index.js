@@ -6,7 +6,7 @@ const operator = pkg.operator;
 
 lodash.shuffle = jest.fn(x => [...x].sort());
 
-const socStruct = { group: { '1': ['1', '2', '5'], '2': ['3', '4'] } };
+const socStruct = { group: { '3': ['1', '2', '5'], '2': ['3', '4'] } };
 
 // grouping attrib, maxitems, overlap(?)
 
