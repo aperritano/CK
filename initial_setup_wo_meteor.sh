@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SAVEIFS=$IFS
+IFS=$(echo -en "\n\b")
+
 FROG=`pwd`
 YARN=yarn
 which yarn | grep -qw yarn || npm install yarn@0.24.6
@@ -41,4 +44,7 @@ for dir in `ls $FROG/op |grep 'op'`
 do
     ln -s $FROG/op/$dir node_modules/ 2>/dev/null
 done
+
+IFS=$SAVEIFS
+
 exit 0
