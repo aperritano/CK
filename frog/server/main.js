@@ -3,6 +3,7 @@
 import { Meteor } from 'meteor/meteor';
 
 import { startShareDB } from './share-db-manager';
+import { startShareDB } from './share-db-manager';
 
 import '../imports/startup/shutdown-if-env.js';
 
