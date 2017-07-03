@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03cc7877-224e-4c06-b1cb-f094db98dfee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/open_many.sh" afterPath="$PROJECT_DIR$/open_many.sh" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+              <folding>
+                <element signature="e#10#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frog/client/main.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/Navigation.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/Body.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-883">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/Runner.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-447">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="476" column="24" lean-forward="false" selection-start-line="476" selection-start-column="24" selection-end-line="476" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#10#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/node_modules/event-stream/readme.markdown" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/package.json" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/dist/index.js" />
+        <option value="$PROJECT_DIR$/open_many.sh" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path>$PROJECT_DIR$/node_modules/.bin/flow</exe-path>
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ac/ac-brainstorm/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-chat/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-ck-board/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-ck-student/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-form/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-iframe/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-quiz/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-text/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ac/ac-video/node_modules" />
+    <handled-path value="$PROJECT_DIR$/frog-utils/node_modules" />
+    <handled-path value="$PROJECT_DIR$/frog/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/op/op-argue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/op/op-create-groups/node_modules" />
+    <handled-path value="$PROJECT_DIR$/op/op-distribute/node_modules" />
+    <handled-path value="$PROJECT_DIR$/op/op-group-identical/node_modules" />
+    <handled-path value="$PROJECT_DIR$/op/op-hypothesis/node_modules" />
+    <handled-path value="$PROJECT_DIR$/op/op-jigsaw/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/ac/ac-ck-student/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/@houshuang/react-flip-move/2.9.16/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/abab/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/acorn-globals/3.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/acorn-jsx/3.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/acorn/3.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/acorn/4.0.13/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/acorn/5.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ajv-keywords/1.5.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/align-text/0.1.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ansi-escapes/1.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ansi-regex/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ansi-regex/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ansi-styles/2.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ansi-styles/3.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/anymatch/1.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/append-transform/0.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/argparse/1.0.9/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/aria-query/0.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/arr-diff/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/arr-flatten/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/array-includes/3.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/array-union/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/array-uniq/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/array-unique/0.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/arraydiff/0.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/arrify/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/asap/2.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/assert-plus/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ast-types-flow/0.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/async/0.2.10/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/async/1.5.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/async/2.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/axobject-query/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-cli/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-code-frame/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-core/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-core/6.25.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-eslint/7.2.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-generator/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-generator/6.25.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-bindify-decorators/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-builder-binary-assignment-operator-visitor/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-builder-react-jsx/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-call-delegate/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-define-map/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-explode-assignable-expression/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-explode-class/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-function-name/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-get-function-arity/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-hoist-variables/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-optimise-call-expression/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-regex/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-remap-async-to-generator/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helper-replace-supers/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-helpers/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-jest/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-messages/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-check-es2015-constants/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-istanbul/4.1.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-constant-folding/0.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-dead-code-elimination/0.1.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-flip-comparisons/0.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-guarded-expressions/0.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-mangle-names/0.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-simplify/0.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-minify-type-constructors/0.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-syntax-trailing-function-commas/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-async-generator-functions/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-async-to-generator/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-class-constructor-call/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-class-properties/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-decorators-legacy/1.3.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-decorators/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-do-expressions/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-arrow-functions/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-block-scoped-functions/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-block-scoping/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-classes/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-computed-properties/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-destructuring/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-duplicate-keys/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-for-of/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-function-name/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-literals/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-modules-amd/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-modules-commonjs/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-modules-reify/0.11.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-modules-systemjs/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-modules-umd/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-object-super/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-parameters/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-shorthand-properties/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-spread/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-sticky-regex/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-template-literals/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-typeof-symbol/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es2015-unicode-regex/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-es3-property-literals/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-exponentiation-operator/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-export-extensions/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-flow-strip-types/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-function-bind/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-object-rest-spread/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-react-display-name/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-react-display-name/6.25.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-react-jsx-self/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-react-jsx-source/6.22.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-react-jsx/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-regenerator/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-runtime/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-plugin-transform-strict-mode/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-polyfill/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-babili/0.0.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-es2015/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-es2017/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-flow/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-jest/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-meteor/6.26.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-react/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-stage-0/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-stage-1/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-stage-2/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-preset-stage-3/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-register/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-runtime/6.23.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-template/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-template/6.25.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-traverse/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-traverse/6.25.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-types/6.24.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babel-types/6.25.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babylon/6.17.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/babylon/6.17.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/balanced-match/0.4.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/base64-js/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/base64-js/1.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/bcrypt/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/binary-extensions/1.8.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/binary/0.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/bowser/1.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/brace-expansion/1.1.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/braces/1.8.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/browser-fingerprint/0.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/browser-resolve/1.11.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/bser/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/bser/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/bson/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/buffer-shims/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/buffer/5.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/caller-path/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/callsites/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/callsites/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/camelcase-keys/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/camelcase/1.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/camelcase/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/camelcase/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/center-align/0.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/chainsaw/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/chalk/1.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/change-emitter/0.1.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/chokidar/1.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/circular-json/0.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/classnames/2.2.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cli-color/0.2.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cli-cursor/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cliui/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cliui/3.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/clone/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/color-convert/1.9.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/color-hash/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/commander/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/commander/2.10.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/common-tags/1.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/concat-map/0.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/concat-stream/1.6.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/contains-path/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/content-type-parser/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/convert-source-map/1.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/core-js/1.2.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/core-js/2.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/core-util-is/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/create-react-class/15.5.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/create-react-class/15.6.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/css-color-keywords/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/css-in-js-utils/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/css-to-react-native/2.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cssom/0.3.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cssstyle/0.2.37/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/cuid/1.3.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-array/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-axis/1.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-brush/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-chord/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-cloud/1.2.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-collection/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-color/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-dispatch/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-drag/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-dsv/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-ease/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-force/1.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-format/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-geo/1.6.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-hierarchy/1.1.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-interpolate/1.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-path/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-polygon/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-quadtree/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-queue/3.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-random/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-request/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-scale/1.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-selection/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-shape/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-time-format/2.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-time/1.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-timer/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-transition/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-voronoi/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3-zoom/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/d3/4.9.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/damerau-levenshtein/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/debug/2.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/debug/2.6.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/decamelize/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/deep-defaults/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/deep-extend/0.4.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/deep-is/0.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/default-require-extensions/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/defaults/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/define-properties/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/del/2.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/detect-indent/4.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/diff/3.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/disposables/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/dnd-core/2.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/doctrine/1.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/doctrine/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/double-ended-queue/2.1.0-0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/duplexer/0.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/electron-download/3.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/electron/1.6.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/element-class/0.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/emoji-regex/6.4.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/encoding/0.1.12/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/enqueue/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/errno/0.1.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/error-ex/1.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es-abstract/1.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es-to-primitive/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es5-ext/0.10.23/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es5-ext/0.9.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-iterator/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-map/0.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-promise/3.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-promise/4.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-set/0.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-symbol/3.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/es6-weak-map/2.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/escape-string-regexp/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/escodegen/1.8.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/escope/3.6.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-config-airbnb-base/11.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-config-airbnb/15.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-config-prettier/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-import-resolver-node/0.2.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-module-utils/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-plugin-flowtype/2.34.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-plugin-import/2.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-plugin-jsx-a11y/5.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-plugin-prettier/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint-plugin-react/7.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/eslint/3.19.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/espree/3.4.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/esprima/2.7.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/esprima/3.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/esquery/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/esrecurse/4.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/estraverse/1.9.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/estraverse/4.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/estraverse/4.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/esutils/2.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/event-emitter/0.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/event-emitter/0.3.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/event-stream/3.3.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/exec-sh/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/exit-hook/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/expand-brackets/0.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/expand-range/1.8.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/extglob/0.3.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/extract-zip/1.6.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fast-diff/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fast-levenshtein/2.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/faye-websocket/0.11.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fb-watchman/1.9.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fb-watchman/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fbjs/0.8.12/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fd-slicer/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fetch-jsonp/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/figures/1.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/file-entry-cache/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/file-saver/1.3.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/filename-regex/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fileset/2.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fill-range/2.2.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/find-up/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/find-up/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/flat-cache/1.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/flow-classy-type-wrapper/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/flow-copy-source/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/flow-typed/2.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/for-in/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/for-own/0.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/foreach/2.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/from/0.1.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fs-extra/0.26.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fs-extra/0.30.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fs-extra/2.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fs-readdir-recursive/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fsevents/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/fstream/0.1.31/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/function-bind/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/generate-function/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/generate-object-property/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/get-caller-file/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/get-stdin/4.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/get-stdin/5.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/github/0.2.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/glob-base/0.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/glob-parent/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/glob/7.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/globals/9.17.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/globals/9.18.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/globby/5.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/graceful-fs/3.0.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/handlebars/4.0.10/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/has-ansi/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/has-flag/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/has/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/hat/0.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/hoist-non-react-statics/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/home-or-tmp/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/home-path/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/hosted-git-info/2.4.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/html-encoding-sniffer/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/hyphenate-style-name/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/iconv-lite/0.4.13/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/iconv-lite/0.4.18/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ieee754/1.1.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ignore/3.3.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/immutability-helper/2.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/indent-string/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/inflight/1.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/inherits/2.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/inline-style-prefixer/3.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/inquirer/0.12.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/install/0.10.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/invariant/2.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/invert-kv/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-arrayish/0.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-binary-path/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-buffer/1.1.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-buffer/1.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-callable/1.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-date-object/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-dom/1.0.9/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-dotfile/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-equal-shallow/0.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-extendable/0.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-extglob/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-finite/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-fullwidth-code-point/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-fullwidth-code-point/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-function/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-glob/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-my-json-valid/2.16.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-number/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-number/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-object/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-path-cwd/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-path-in-cwd/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-path-inside/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-plain-object/2.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-posix-bracket/0.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-primitive/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-property/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-regex/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-resolvable/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-stream/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/is-symbol/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/isarray/0.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/isarray/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/isobject/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/isobject/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/isobject/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/isomorphic-fetch/2.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-api/1.1.9/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-lib-coverage/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-lib-hook/1.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-lib-instrument/1.7.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-lib-report/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-lib-source-maps/1.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/istanbul-reports/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-cli/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-config/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-diff/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-environment-jsdom/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-environment-node/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-haste-map/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-jasmine2/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-matcher-utils/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-matchers/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-message-util/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-resolve-dependencies/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-resolve/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-runtime/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-snapshot/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-util/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest-validate/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jest/20.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/js-tokens/3.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/js-yaml/3.8.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsdom/9.12.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsesc/0.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsesc/1.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsesc/2.5.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/json-stable-stringify/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/json-stringify-pretty-compact/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/json5/0.5.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsonfile/2.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsonify/0.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsonpath-plus/0.16.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsonpointer/4.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsonschema/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/jsx-ast-utils/1.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/kefir/3.7.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/keycode/2.1.9/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/kind-of/3.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/kind-of/3.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/kind-of/4.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/klaw/1.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/lazy-cache/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/lcid/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/levn/0.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/load-json-file/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/load-json-file/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/load-script/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/loadjs/3.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/locate-path/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/lolex/1.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/longest/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/loose-envify/1.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/make-error/1.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/makeerror/1.0.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/manage-path/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/map-obj/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/map-stream/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/match-stream/0.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/material-ui/0.18.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/md5/2.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/memoizee/0.2.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/meow/3.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/meteor-babel/0.21.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/meteor-deque/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/meteor-node-stubs/0.2.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/meteor-promise/0.8.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/micromatch/2.3.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mime/1.3.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minimatch/3.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minimist/0.0.10/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minimist/0.0.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minimist/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minipass/2.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minizlib/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/minstache/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mkdirp/0.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mkdirp/0.5.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mobx-react-devtools/4.2.13/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mobx-react-devtools/4.2.15/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mobx-react/4.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mobx/3.1.15/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mobx/3.1.16/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mongodb-core/2.1.12/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mongodb-core/2.1.13/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mongodb-core/2.1.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mongodb/2.2.24/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mongodb/2.2.28/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mongodb/2.2.29/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mousetrap/1.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ms/0.7.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ms/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/mute-stream/0.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/nan/2.5.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/nan/2.6.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/natives/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/natural-compare/1.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/next-tick/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/nightmare/2.10.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/node-fetch/1.7.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/node-fingerprint/0.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/node-int64/0.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/node-notifier/5.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/node-pre-gyp/0.6.32/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/nopt/3.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/normalize-package-data/2.3.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/normalize-path/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/nps/5.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/nugget/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/number-is-nan/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/object-assign/4.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/object-keys/0.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/object-keys/1.0.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/object.omit/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/once/1.3.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/once/1.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/onetime/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/optimist/0.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/optionator/0.8.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/os-homedir/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/os-locale/1.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/os-tmpdir/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ot-json0/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/output-file-sync/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/over/0.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/p-limit/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/p-locate/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/p-map/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/parse-glob/3.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/parse-json/2.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/parse5/1.5.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/path-exists/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/path-exists/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/path-is-absolute/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/path-is-inside/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/path-type/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/path-type/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pause-stream/0.0.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/permessage-deflate/0.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pify/2.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pinkie-promise/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pinkie/2.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pkg-dir/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pluralize/1.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/postcss-value-parser/3.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/prefix-matches/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/prelude-ls/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/preserve/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/prettier/1.4.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pretty-bytes/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pretty-format/20.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/private/0.1.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/process-nextick-args/1.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/progress-stream/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/promise/7.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/promise/7.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/promise/7.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/prop-types/15.5.10/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/prop-types/15.5.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/prr/0.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ps-tree/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pullstream/0.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/pure-render-decorator/1.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/query-selector/1.0.9/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/query-string/4.3.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/randomatic/1.1.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/rc/1.1.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/rc/1.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-addons-pure-render-mixin/15.5.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-addons-test-utils/15.5.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-addons-transition-group/15.5.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-bootstrap/0.31.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-d3-cloud/0.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-dnd-html5-backend/2.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-dnd/2.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-dom/15.5.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-dom/15.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-draggable/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-draggable/2.2.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-event-listener/0.4.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-faux-dom/3.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-fontawesome/1.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-google-charts/1.5.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-iframe/1.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-inspector/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-inspector/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-jsonschema-form/0.48.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-modal/1.9.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-modal/1.9.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-mosaic-component/0.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-overlays/0.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-player/0.18.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-prop-types/0.4.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-tap-event-plugin/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react-transition-group/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react/15.5.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/react/15.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/read-pkg-up/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/read-pkg-up/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/read-pkg/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/read-pkg/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/readable-stream/1.0.34/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/readable-stream/1.1.14/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/readable-stream/2.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/readable-stream/2.2.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/readdirp/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/readline2/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/rechoir/0.6.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/recompose/0.23.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/recompose/0.23.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/redent/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/redux/3.6.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/redux/3.7.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/redux/3.7.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/regenerate/1.3.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/regenerator-transform/0.9.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/regex-cache/0.4.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/regexpu-core/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/regjsgen/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/regjsparser/0.1.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/reify/0.11.21/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/remove-trailing-separator/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/repeat-element/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/repeat-string/1.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/repeating/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/require-directory/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/require-main-filename/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/require-uncached/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/require_optional/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/require_optional/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/resolve-from/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/resolve-from/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/resolve/1.1.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/resolve/1.3.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/restore-cursor/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/right-align/0.1.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/rimraf/2.5.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/rimraf/2.6.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/run-async/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/rw/1.3.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/safe-buffer/5.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/safe-buffer/5.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sane/1.6.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/save-svg-as-png/1.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sax/1.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/semver/5.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/set-immediate-shim/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/setimmediate/1.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sharedb-mongo/1.0.0-beta.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sharedb/1.0.0-beta.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/shelljs/0.7.8/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/shellwords/0.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/single-line-log/1.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/slash/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/slice-ansi/0.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/slice-stream/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sliced/0.0.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sliced/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/source-map-support/0.4.15/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/source-map/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/source-map/0.4.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/source-map/0.5.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/spawn-command-with-kill/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/spawn-command/0.0.2-1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/split/0.3.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/split2/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sprintf-js/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/starts-with/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/stream-combiner/0.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strict-uri-encode/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strict-uri-encode/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/string-length/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/string-width/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/string-width/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/string_decoder/0.10.31/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/string_decoder/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/string_decoder/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strip-ansi/3.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strip-ansi/4.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strip-bom/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strip-indent/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/strip-json-comments/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/style-attr/1.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/styled-components/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/styled-components/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/sumchecker/1.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/supports-color/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/supports-color/3.2.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/symbol-observable/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/symbol-tree/3.2.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/table/3.8.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/tar-pack/3.3.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/test-exclude/4.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/text-table/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/throat/3.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/through2/0.2.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/through2/2.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/tmpl/1.0.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/to-fast-properties/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/tr46/0.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/traverse/0.3.9/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/trim-newlines/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/trim-right/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/tryit/1.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/type-check/0.3.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/type-detect/4.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/typedarray/0.0.6/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ua-parser-js/0.7.12/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ua-parser-js/0.7.13/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/uglify-js/2.7.5/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/uglify-js/2.8.28/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/uglify-to-browserify/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ultron/1.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/uncontrollable/4.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/unzip/0.1.11/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/user-home/1.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/user-home/2.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/uuid/3.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/v8flags/2.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/walker/1.0.7/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/warning/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/watch/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/webidl-conversions/3.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/webidl-conversions/4.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/websocket-driver/0.6.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/websocket-extensions/0.1.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/whatwg-encoding/1.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/whatwg-fetch/2.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/whatwg-url/4.8.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/which-module/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/window-size/0.1.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/window-size/0.2.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/wordwrap/0.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/wordwrap/0.0.3/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/wordwrap/1.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/worker-farm/1.3.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/wrap-ansi/2.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/wrappy/1.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/write/0.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/ws/3.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/xml-name-validator/2.0.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/xmlbuilder/2.4.4/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/xtend/2.1.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/y18n/3.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yallist/3.0.2/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs-parser/2.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs-parser/4.2.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs-parser/5.0.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs/3.10.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs/3.32.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs/4.8.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs/6.6.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yargs/7.1.0/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/.npm/yauzl/2.4.1/package/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/.meteor/local/dev_bundle/etc/package.json" />
+    <dismissed value="$PROJECT_DIR$/frog/package.json" />
+    <dismissed value="$PROJECT_DIR$/templates/activity/package.json" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="80" />
+    <option name="y" value="22" />
+    <option name="width" value="1351" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers Scope="false" ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-board" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-student" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentView" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="material-ui-DefinitelyTyped" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="enabled" />
+    <property name="js.meteor.project" value="true" />
+    <property name="js.meteor.library.was.enabled" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="read&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/event-stream/readme.markdown&#10;readme&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/event-stream/readme.markdown" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03cc7877-224e-4c06-b1cb-f094db98dfee" name="Default" comment="" />
+      <created>1498917569003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498917569003</updated>
+      <workItem from="1498917598871" duration="580000" />
+      <workItem from="1498955081595" duration="1015000" />
+      <workItem from="1498956122809" duration="4918000" />
+      <workItem from="1498962735235" duration="682000" />
+      <workItem from="1498963451344" duration="1103000" />
+      <workItem from="1498964976465" duration="585000" />
+      <workItem from="1499038522791" duration="3734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12617000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="80" y="22" width="1351" height="874" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25282168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Flow" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-Dockerfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/ReactiveHOC.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionBody.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../archive/ac-hello/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/ReactiveHOC.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionBody.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/node_modules/event-stream/readme.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/ReactiveHOC.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionBody.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/node_modules/event-stream/readme.markdown">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="92" lean-forward="false" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="92" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog-utils/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog-utils/src/generateReactiveFn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../archive/ac-hello/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-Dockerfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_many.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#10#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="476" column="24" lean-forward="false" selection-start-line="476" selection-start-column="24" selection-end-line="476" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/client/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/Navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/Body.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-883">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/Runner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="e#10#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
