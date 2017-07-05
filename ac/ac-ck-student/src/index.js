@@ -3,7 +3,8 @@
 import React from 'react';
 import { type ActivityPackageT} from 'frog-utils';
 import config from './config';
-import {orange500} from 'material-ui/styles/colors';
+import OverviewGrid from './OverviewGrid';
+import {blue900} from 'material-ui/styles/colors';
 import FlatButton from 'material-ui/FlatButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
@@ -29,7 +30,7 @@ const mergeFunction = (object, dataFn) => {};
 
 const muiTheme = getMuiTheme({
   appBar: {
-    color: orange500
+    color: blue900
   }
 });
 
@@ -42,6 +43,7 @@ const ActivityRunner = ({ logger, activityData, data, dataFn, userInfo }) => {
         // iconElementLeft={<IconButton><NavigationClose /></IconButton>
           iconElementRight={<FlatButton label={userInfo.name} />}
         />
+        <OverviewGrid />
       </div>
       </MuiThemeProvider>);
 };
