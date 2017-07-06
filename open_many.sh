@@ -1,5 +1,5 @@
 #!/bin/bash
-open http://dev1:3000/#/teacher/peter
-open http://dev2:3000/#/student/john
-open http://dev3:3000/#/student/nils
-open http://dev4:3000/#/student/jens
+open http://dev1:3000/#/teacher/stark
+open http://dev2:3000/#/joe
+open http://dev3:3000/#/ole
+open http://dev4:3000/#/jens
