@@ -3,10 +3,11 @@
 import React from 'react';
 import type { ActivityRunnerT, ActivityPackageT } from 'frog-utils';
 import config from './config';
-import {blue900} from 'material-ui/styles/colors';
+import {orange900} from 'material-ui/styles/colors';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import { Drawer, AppBar, MenuItem, FlatButton, IconButton} from 'material-ui'
+import { Drawer, AppBar, MenuItem, FlatButton, IconButton, Subheader, List, ListItem} from 'material-ui'
+import transitions from 'material-ui/styles/transitions'
 
 const isMobile = false;
 
@@ -17,7 +18,7 @@ const meta = {
 
 const muiTheme = getMuiTheme({
   appBar: {
-    color: blue900
+    color: orange900
     }
 });
 
@@ -44,7 +45,7 @@ export class Welcome extends React.Component {
   }
   render() {
     const baseDrawerStyle = {
-      // transition: 'none',
+      transition: transitions.easeOut(),
       top: 60,
     };
     const openDrawerStyle = {
@@ -70,14 +71,29 @@ export class Welcome extends React.Component {
           onLeftIconButtonTouchTap={this.drawerAction.bind(this)}
           iconElementRight={<FlatButton label={userInfo.name} />}
         />
-        <Drawer
-          open={this.state.drawer}
-          width={marginLeft}
-          containerStyle={displayDrawer}
+        <div style={{display: 'block'}}>
+          <div style={{display: 'block'}}>
+            <Drawer
+                open={this.state.drawer}
+                width={marginLeft}
+                containerStyle={displayDrawer}
+            >
+              <List>
+                <Subheader style={{ fontSize: 18 }}>MY BOARDS</Subheader>
+              </List>
+            </Drawer>
+          </div>
+        </div>
+        <div
+          className="Content__hits"
+          style={{
+            marginLeft,
+            display: 'flex',
+            flexDirection: 'column',
+            marginTop: 80,
+          }}
         >
 
-        </Drawer>
-        <div>
           <p>{JSON.stringify(activityData)}</p>
           <p>{JSON.stringify(userInfo)}</p>
           <p>{activityData.config ? activityData.config.text : 'NO TEXT'}</p>
