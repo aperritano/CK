@@ -1,3 +1,3 @@
 #!/bin/bash
 git fetch upstream
-git merge upstream/master
+git merge upstream/develop
