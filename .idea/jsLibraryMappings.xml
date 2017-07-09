@@ -3,5 +3,6 @@
   <component name="JavaScriptLibraryMappings">
     <file url="PROJECT" libraries="{material-ui-DefinitelyTyped, meteor-packages-auto-import-browser, meteor-packages-auto-import-npm, react-DefinitelyTyped, react-addons-create-fragment-DefinitelyTyped}" />
     <includedPredefinedLibrary name="Meteor project library" />
+    <excludedPredefinedLibrary name="FROG/ac/ac-induction/node_modules" />
   </component>
 </project>

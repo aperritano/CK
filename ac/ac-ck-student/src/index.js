@@ -85,7 +85,7 @@ export class Welcome extends React.Component {
           </div>
         </div>
         <div
-          className="Content__hits"
+          className="ContentHits"
           style={{
             marginLeft,
             display: 'flex',
