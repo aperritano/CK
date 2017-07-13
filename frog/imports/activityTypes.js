@@ -1,10 +1,6 @@
 // @flow
-
-<<<<<<< HEAD
 import acCkStudent from 'ac-ck-student';
-=======
 import acInduction from 'ac-induction';
->>>>>>> upstream/develop
 import acBrainstorm from 'ac-brainstorm';
 import acChat from 'ac-chat';
 import acVideo from 'ac-video';
@@ -19,11 +15,8 @@ import type { ActivityPackageT } from 'frog-utils';
 import { keyBy } from 'lodash';
 
 export const activityTypes: Array<ActivityPackageT> = [
-<<<<<<< HEAD
   acCkStudent,
-=======
   acInduction,
->>>>>>> upstream/develop
   acBrainstorm,
   acChat,
   acVideo,
