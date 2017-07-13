@@ -1462,19 +1462,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/2.2.24/npm/node_modules/bson/lib/bson/parser/serializer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/2.2.24/npm/node_modules/bson/lib/bson/float_parser.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/2.2.24/npm/node_modules/bson/lib/bson/max_key.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/util/base64.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/prng/accum.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/dist/bcrypt.min.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/dist/bcrypt.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/externs/bcrypt.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/scripts/build.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/externs/minimal-env.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/index.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/wrap.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/impl.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/util.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/npm/node_modules/install/install.min.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/npm/node_modules/install/install.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/npm/node_modules/install/docs/docco.css" />
@@ -6763,6 +6750,33 @@
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.19.2/npm/node_modules/lodash/fp/stubObject.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.19.2/npm/node_modules/lodash/fp/always.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.19.2/npm/node_modules/lodash/fp/valuesIn.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/minimal-env.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/scripts/build.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/bcrypt.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.min.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util/base64.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/accum.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/wrap.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/index.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/impl.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_tempstore/0.1.5/npm/node_modules/combined-stream/lib/combined_stream.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_storage-adapter/0.2.3/npm/node_modules/length-stream/lib/length-stream.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_filesystem/0.1.2/npm/node_modules/mkdirp/index.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/buffer-stream-reader/reader.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/debug.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/helpers.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/cookies.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/copy.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_file/0.1.17/npm/node_modules/temp/lib/temp.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/temp/lib/temp.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/request.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/index.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/mime/mime.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/mime/test.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -8226,19 +8240,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/2.2.24/npm/node_modules/bson/lib/bson/parser/serializer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/2.2.24/npm/node_modules/bson/lib/bson/float_parser.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/2.2.24/npm/node_modules/bson/lib/bson/max_key.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/util/base64.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/prng/accum.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/dist/bcrypt.min.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/dist/bcrypt.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/externs/bcrypt.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/scripts/build.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/externs/minimal-env.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/index.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/wrap.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/impl.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.2/npm/node_modules/bcryptjs/src/bcrypt/util.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/npm/node_modules/install/install.min.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/npm/node_modules/install/install.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/npm/node_modules/install/docs/docco.css" />
@@ -13527,6 +13528,33 @@
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.19.2/npm/node_modules/lodash/fp/stubObject.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.19.2/npm/node_modules/lodash/fp/always.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.19.2/npm/node_modules/lodash/fp/valuesIn.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/minimal-env.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/scripts/build.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/bcrypt.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.min.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util/base64.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/accum.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/wrap.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/index.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/impl.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_tempstore/0.1.5/npm/node_modules/combined-stream/lib/combined_stream.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_storage-adapter/0.2.3/npm/node_modules/length-stream/lib/length-stream.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_filesystem/0.1.2/npm/node_modules/mkdirp/index.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/buffer-stream-reader/reader.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/debug.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/helpers.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/cookies.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/lib/copy.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_file/0.1.17/npm/node_modules/temp/lib/temp.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/temp/lib/temp.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/request.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/request/index.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/mime/mime.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/cfs_data-man/0.0.6/npm/node_modules/mime/test.js" />
     </CLASSES>
     <SOURCES />
   </library>

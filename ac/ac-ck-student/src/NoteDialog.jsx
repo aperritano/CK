@@ -1,51 +1,71 @@
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
-import RaisedButton from 'material-ui/RaisedButton';
-import ListItem from 'material-ui';
+
 
 /**
  * A modal dialog can only be closed by selecting one of the actions.
  */
-export default class NoteDialog extends React.Component {
-  state = {
-    open: false,
-  };
+export default class NoteDialog extends Component {
 
-  handleOpen = () => {
-    this.setState({open: true});
-  };
+  static get propTypes() {
+    return {
+      open: PropTypes.bool,
+      onHandleRequestClose: PropTypes.func,
+    };
+  }
 
-  handleClose = () => {
-    this.setState({open: false});
-  };
+  constructor(props) {
+    super(props);
+    this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
+  }
+
+  handleClose() {
+    this.setState({ open: false });
+  }
+
+  _onHandleRequestClose() {
+    if (this.props.onHandleRequestClose) {
+      this.props.onHandleRequestClose();
+    }
+  }
 
   render() {
+    const { onHandleRequestClose, open, note, ...props } = this.props;
+
     const actions = [
-      <FlatButton
-        label="Cancel"
-        primary={true}
-        onTouchTap={this.handleClose}
-      />,
-      <FlatButton
-        label="Submit"
-        primary={true}
-        disabled={true}
-        onTouchTap={this.handleClose}
-      />,
+      <FlatButton key='close'
+                  primary={true}
+                  label='Close'
+                  keyboardFocused={true}
+                  onTouchTap={this._onHandleRequestClose} />,
     ];
+
+    const customContentStyle = {
+      width: '100%',
+      maxWidth: 'none'
+    };
+
+    const bodyStyle = {
+      padding: '0px',
+    };
+
+    const titleStyle = {
+      padding: '0px',
+    };
 
     return (
       <div>
-
-        <ListItem primaryText="Modal Dialog" onTouchTap={this.handleOpen} />
         <Dialog
-          title="Dialog With Actions"
+          title=''
           actions={actions}
-          modal={true}
-          open={this.state.open}
-        >
-          Only actions can close this dialog.
+          modal={false}
+          contentStyle={customContentStyle}
+          bodyStyle={bodyStyle}
+          titleStyle={titleStyle}
+          open={open}
+          onRequestClose={this._onHandleRequestClose}>
+          <div>HELLLLLO</div>
         </Dialog>
       </div>
     );

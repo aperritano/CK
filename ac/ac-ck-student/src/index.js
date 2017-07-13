@@ -4,17 +4,18 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import type { ActivityRunnerT, ActivityPackageT } from 'frog-utils';
 import config from './config';
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
-
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import * as Colors from 'material-ui/styles/colors';
 import {green100, green500, green700, orange500, blue900} from 'material-ui/styles/colors';
 
 import { Drawer, AppBar, FlatButton, Paper, makeSelectable, List, ListItem, FloatingActionButton} from 'material-ui'
-import NoteDialog from './NoteDialog';
 import ContentAdd from 'material-ui/svg-icons/content/add';
 import transitions from 'material-ui/styles/transitions'
 
+// NotePopover
+import NoteDialog from './NoteDialog';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 let SelectableList = makeSelectable(List);
 
@@ -87,17 +88,36 @@ export const ActivityRunner = ({ activityData, userInfo }: ActivityRunnerT) => {
 export class Welcome extends Component {
   constructor(props) {
     super(props);
-    this.state = { drawer: !isMobile };
+    this.state = {
+      drawer: !isMobile,
+      open: false,
+      anchorEL: {},
+    };
+
+    this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
+    this._newNoteAction = this._newNoteAction.bind(this);
+    this._drawerAction = this._newNoteAction.bind(this);
   }
-  drawerAction() {
+  _onHandleRequestClose() {
+    this.setState({
+      open: false,
+    });
+  }
+  _drawerAction() {
     this.setState({ drawer: !this.state.drawer });
   }
-  newNoteAction(e) {
+  _newNoteAction() {
+    this.setState({
+      open: true,
+    });
     console.log('dataFn',this.props);
   }
   handleAddMenu = (e) => {
     e.stopPropagation();
     console.log("Opening New Menu Form");
+  }
+  componentWillMount() {
+    injectTapEventPlugin();
   }
   render() {
     const baseDrawerStyle = {
@@ -113,10 +133,12 @@ export class Welcome extends Component {
       ...baseDrawerStyle,
       transform: 'translate(-300px)',
     };
-    const floatButtonStyle = {
-      right: 20,
-      bottom: 20,
-      position: 'fixed',
+    const buttonStyle = {
+      backgroundColor: Colors.redA200,
+      position: 'absolute',
+      bottom: '50px',
+      right: '40px',
+      zDepth: 999
     };
     const defaultMarginLeft = isMobile ? 100 : 200;
     const marginLeft = this.state.drawer ? defaultMarginLeft : 0;
@@ -131,7 +153,7 @@ export class Welcome extends Component {
         <AppBar
           title="CK"
           //title={activityData.config ? activityData.config.brainstormTitle : 'NO TITLE'}
-          onLeftIconButtonTouchTap={this.drawerAction.bind(this)}
+          onLeftIconButtonTouchTap={this.drawerAction}
           iconElementRight={<FlatButton label={userInfo.name} />}
         />
         <div style={{display: 'block'}}>
@@ -142,7 +164,7 @@ export class Welcome extends Component {
                 containerStyle={displayDrawer}
             >
               <SelectableList defaultValue={5}>
-                <ListItem primaryText="NEW NOTE"  onTouchTap={this.newNoteAction}/>
+                <ListItem primaryText="NEW NOTE"  onTouchTap={this._newNoteAction}/>
                 <ListItem
                   primaryText="BOARDS"
                   initiallyOpen={true}
@@ -190,10 +212,12 @@ export class Welcome extends Component {
           <p>{JSON.stringify(activityData.config)}</p>
           <p>{JSON.stringify(userInfo)}</p>
           <p>{activityData.config ? activityData.config.text : 'NO TEXT'}</p>
-
-
-
         </div>
+        <FloatingActionButton style={buttonStyle} secondary={true}>
+          <ContentAdd />
+        </FloatingActionButton>
+        <NoteDialog open={this.state.open}
+                     onHandleRequestClose={this._onHandleRequestClose}  {...this.props} />
       </div>
     );
   }

@@ -13,7 +13,7 @@
     <orderEntry type="library" name="material-ui-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="react-addons-create-fragment-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="react-DefinitelyTyped" level="application" />
-    <orderEntry type="library" name="meteor-packages-auto-import-browser" level="project" />
     <orderEntry type="library" name="meteor-packages-auto-import-npm" level="project" />
+    <orderEntry type="library" name="meteor-packages-auto-import-browser" level="project" />
   </component>
 </module>
