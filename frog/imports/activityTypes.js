@@ -1,5 +1,6 @@
 // @flow
 import acCkStudent from 'ac-ck-student';
+import acMaterialUi from 'ac-material-ui';
 import acInduction from 'ac-induction';
 import acBrainstorm from 'ac-brainstorm';
 import acChat from 'ac-chat';
@@ -15,6 +16,7 @@ import type { ActivityPackageT } from 'frog-utils';
 import { keyBy } from 'lodash';
 
 export const activityTypes: Array<ActivityPackageT> = [
+  acMaterialUi,
   acCkStudent,
   acInduction,
   acBrainstorm,
