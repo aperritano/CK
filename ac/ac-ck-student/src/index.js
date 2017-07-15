@@ -12,7 +12,8 @@ import {green100, green500, green700, orange500, blue900} from 'material-ui/styl
 import { Drawer, AppBar, FlatButton, Paper, makeSelectable, List, ListItem, FloatingActionButton} from 'material-ui'
 import ContentAdd from 'material-ui/svg-icons/content/add';
 import transitions from 'material-ui/styles/transitions'
-
+import NoteGrid from './NoteGrid';
+import testData from './test_data';
 // NotePopover
 import NoteDialog from './NoteDialog';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -147,6 +148,7 @@ export class Welcome extends Component {
       : closedDrawerStyle;
     const { userInfo, activityData } = this.props;
     const data = activityData.data;
+    console.log('test data', testData);
     console.log('data', data);
     return (
       <div>
@@ -164,7 +166,7 @@ export class Welcome extends Component {
                 containerStyle={displayDrawer}
             >
               <SelectableList defaultValue={5}>
-                <ListItem primaryText="NEW NOTE"  onTouchTap={this._newNoteAction}/>
+                <ListItem primaryText="NEW NOTE TEST"  onTouchTap={this._newNoteAction}/>
                 <ListItem
                   primaryText="BOARDS"
                   initiallyOpen={true}
@@ -196,7 +198,6 @@ export class Welcome extends Component {
               </SelectableList>
             </Drawer>
           </div>
-        </div>
         <div
           className="ContentHits"
           style={{
@@ -208,16 +209,12 @@ export class Welcome extends Component {
             marginRight: 5,
           }}
         >
-
+          <NoteGrid />
           <p>{JSON.stringify(activityData.config)}</p>
           <p>{JSON.stringify(userInfo)}</p>
           <p>{activityData.config ? activityData.config.text : 'NO TEXT'}</p>
+      </div>
         </div>
-        <FloatingActionButton style={buttonStyle} secondary={true}>
-          <ContentAdd />
-        </FloatingActionButton>
-        <NoteDialog open={this.state.open}
-                     onHandleRequestClose={this._onHandleRequestClose}  {...this.props} />
       </div>
     );
   }
