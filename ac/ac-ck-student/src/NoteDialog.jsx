@@ -20,24 +20,20 @@ export default class NoteDialog extends Component {
     this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
   }
 
-  handleClose() {
-    this.setState({ open: false });
-  }
 
   _onHandleRequestClose() {
+    console.log('we are closing');
     if (this.props.onHandleRequestClose) {
       this.props.onHandleRequestClose();
     }
   }
 
   render() {
-    const { onHandleRequestClose, open, note, ...props } = this.props;
+    const { onHandleRequestClose, open, ...props } = this.props;
 
     const actions = [
       <FlatButton key='close'
-                  primary={true}
                   label='Close'
-                  keyboardFocused={true}
                   onTouchTap={this._onHandleRequestClose} />,
     ];
 
@@ -54,10 +50,11 @@ export default class NoteDialog extends Component {
       padding: '0px',
     };
 
+
     return (
       <div>
         <Dialog
-          title=''
+          title='CREATE A NEW NOTE'
           actions={actions}
           modal={false}
           contentStyle={customContentStyle}

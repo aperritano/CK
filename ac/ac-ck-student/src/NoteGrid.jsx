@@ -7,9 +7,9 @@ import {
 } from 'material-ui';
 import testData from './test_data';
 
-const isMobile = false;
-const defaultMarginLeft = isMobile ? 100 : 200;
-const marginLeft = true ? defaultMarginLeft : 0;
+// const isMobile = false;
+// const defaultMarginLeft = isMobile ? 100 : 200;
+// const marginLeft = true ? defaultMarginLeft : 0;
 
 export default class NoteGrid extends Component {
   constructor(props) {
@@ -17,25 +17,20 @@ export default class NoteGrid extends Component {
   }
 
   render() {
-    const cardStyle = isMobile ? {
-        width: '100%',
-        height: 250,
-        marginBottom: 10,
-        position: 'relative',
-        background: 'red'
-      } : {
+    const cardStyle = {
         width: 270,
         height: 250,
         marginBottom: 10,
         marginLeft: 10,
         position: 'relative',
+        backgroundColor: 'white'
       };
-
     const containerCardStyle = {
-      marginLeft,
-      paddingLeft: isMobile ? 0 : 48,
+      marginLeft: 0,
+      //paddingLeft: isMobile ? 0 : 48,
       display: 'flex',
       flexWrap: 'wrap',
+      backgroundColor: 'white'
     };
     const imageHolderStyle = {
       textAlign: 'center',
@@ -64,17 +59,6 @@ export default class NoteGrid extends Component {
             </Card>
           )}
         </main>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <RaisedButton
-            onTouchTap={() => {
-
-            }}
-            primary
-            // disabled={!hasMore}
-            label="Load More"
-            style={{ alignSelf: 'center', marginLeft, marginBottom: 10 }}
-          />
-        </div>
       </div>
     );
   }
