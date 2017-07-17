@@ -43,10 +43,10 @@ const dataStructure = {};
 
 const mergeFunction = (object, dataFn) => {};
 
-export const ActivityRunner = ({ activityData, userInfo }: ActivityRunnerT) => {
+export const ActivityRunner = ({ activityData, userInfo, data, dataFn }: ActivityRunnerT) => {
   return (
       <MuiThemeProvider muiTheme={muiTheme}>
-            <Welcome {...{ activityData, userInfo }}/>
+            <Welcome {...{ activityData, userInfo, data, dataFn  }}/>
       </MuiThemeProvider>
     );
 };
