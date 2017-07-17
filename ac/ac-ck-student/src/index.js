@@ -130,7 +130,7 @@ export class Welcome extends Component {
           iconElementRight={<FlatButton label={userInfo.name} />}
         />
         <div style={styles.gridContent}>
-          <NoteGrid />
+          <NoteGrid {...this.props} />
         </div>
         <div>
           <FloatingActionButton

@@ -14,8 +14,10 @@ import testData from './test_data';
 export default class NoteGrid extends Component {
   constructor(props) {
     super(props);
+    Object.keys(this.props.data).forEach(key => {
+      console.log(key, this.props.data[key]);
+    });
   }
-
   render() {
     const cardStyle = {
         width: 270,
@@ -36,17 +38,18 @@ export default class NoteGrid extends Component {
       textAlign: 'center',
     };
 
+
     return (
       <div>
         <main id="notes" style={containerCardStyle}>
-          {testData.notes.map((note, noteIdx) =>
-            <Card key={noteIdx} style={cardStyle}>
+          { Object.keys(this.props.data).map((key, index) =>
+            <Card key={index} style={cardStyle}>
               <CardHeader
-                subtitle={note.noteType}
+                subtitle={this.props.data[key].note.noteType.noteType}
               />
               <CardTitle
-                title={note.title}
-                subtitle={note.prompt}
+                title={this.props.data[key].note.noteText}
+                subtitle={'by' + this.props.data[key].user.name}
                 style={{
                   position: 'absolute',
                   bottom: 0,

@@ -1,48 +1,16 @@
 import React, { Component, PropTypes } from 'react';
+import {  uuid } from 'frog-utils';
+
 import update from 'immutability-helper';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
-import SelectField from 'material-ui/SelectField';
 import TextField from 'material-ui/TextField';
-import MenuItem from 'material-ui/MenuItem';
+import Checkbox from 'material-ui/Checkbox';
 import {List, ListItem,makeSelectable} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
+import * as Colors from 'material-ui/styles/colors';
 
 let SelectableList = makeSelectable(List);
-// function wrapState(ComposedComponent) {
-//   return class SelectableList extends Component {
-//     static propTypes = {
-//       children: PropTypes.node.isRequired,
-//       defaultValue: PropTypes.number.isRequired,
-//     };
-//
-//     componentWillMount() {
-//       this.setState({
-//         selectedIndex: this.props.defaultValue,
-//       });
-//     }
-//
-//     handleRequestChange = (event, index) => {
-//       this.setState({
-//         selectedIndex: index,
-//       });
-//     };
-//
-//     render() {
-//       return (
-//         <ComposedComponent
-//           value={this.state.selectedIndex}
-//           onChange={this.handleRequestChange}
-//         >
-//           {this.props.children}
-//         </ComposedComponent>
-//       );
-//     }
-//   };
-// }
-//
-// SelectableList = wrapState(SelectableList);
-
 
 /**
  * A modal dialog can only be closed by selecting one of the actions.
@@ -51,9 +19,10 @@ export default class NoteDialog extends Component {
 
   constructor(props) {
     super(props);
-    const {activityData} = this.props;
-    console.log('act types', this.props);
+    const {activityData} = props;
+    console.log('act types', props);
     const noteTypes = activityData.config.noteTypes;
+    const classTags = activityData.config.classTags;
     console.log('note types', noteTypes);
 
     const items = noteTypes.map((type, index) =>
@@ -63,29 +32,41 @@ export default class NoteDialog extends Component {
       />
     );
 
+    const tagListStyle = {
+      paddingTop: 16,
+      paddingRight: 1,
+      paddingBottom: 1,
+      paddingLeft: 43,
+      marginBottom: 5
+    };
 
+    const tagsItems = classTags.map((tag, index) =>
+      <ListItem
+        style={tagListStyle}
+        leftCheckbox={<Checkbox />}
+        primaryText={tag.title}
+      />
+    );
 
     console.log('items', items);
     this.state = {
       selectedValue: 1,
       selectedNoteType:  noteTypes[0],
       types: noteTypes,
+      tagItems: tagsItems,
       newNote: {
         noteType: noteTypes[0],
         noteText: noteTypes[0].sentenceStarter,
-        author: this.props.userInfo
+        author: this.props.userInfo,
+        tags: []
       },
       menuItems: items
     };
 
-
-
-
     this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
-
+    this._onHandleRequestSubmit = this._onHandleRequestSubmit.bind(this);
     this._onHandleRequestNoteTypeChange = this._onHandleRequestNoteTypeChange.bind(this);
     this._handleTextFieldChange = this._handleTextFieldChange.bind(this);
-
   }
 
   static get propTypes() {
@@ -96,9 +77,8 @@ export default class NoteDialog extends Component {
   }
 
   _onHandleRequestNoteTypeChange(event, value) {
-    console.log('value',value);
-
-    console.log('state BEFORE',this.state);
+    // console.log('value',value);
+    // console.log('state BEFORE',this.state);
 
     const nt = this.state.types[value-1];
     this.setState({
@@ -107,13 +87,11 @@ export default class NoteDialog extends Component {
       newNote: {
         noteType: nt,
         noteText: nt.sentenceStarter,
-        author: this.props.userInfo
+        author: this.props.userInfo,
+        tags: []
       }
     });
-
-
-    console.log('state notetype',this.state);
-
+    // console.log('state notetype',this.state);
   }
   _handleTextFieldChange(event){
     const newText = event.target.value;
@@ -121,13 +99,26 @@ export default class NoteDialog extends Component {
       newNote: {
         noteType: this.state.selectedNoteType,
         noteText: newText,
-        author: this.props.userInfo
+        author: this.props.userInfo,
+        tags: []
       },
     });
-    console.log('new text state', this.state);
+    // console.log('new text state', this.state);
   }
   _onHandleRequestClose() {
-    console.log('we are closing');
+    if (this.props.onHandleRequestClose) {
+      this.props.onHandleRequestClose();
+    }
+  }
+  _onHandleRequestSubmit() {
+    console.log('we are submitting', this.props);
+
+    console.log('datafn boject', this.props.dataFn);
+    const n = { note: this.state.newNote, user: this.props.userInfo}
+    this.props.dataFn.objInsert(n, uuid() );
+
+    console.log('DATA', this.props.data);
+
     if (this.props.onHandleRequestClose) {
       this.props.onHandleRequestClose();
     }
@@ -148,8 +139,12 @@ export default class NoteDialog extends Component {
       flexWrap: 'wrap',
       backgroundColor: 'white'
     };
+    const basicContainerStyle = {
+      paddingLeft: 16,
+    };
     const fieldsContainerStyle = {
-      paddingLeft: 16
+      ...basicContainerStyle,
+      width: 250,
     };
 
     return (
@@ -177,16 +172,23 @@ export default class NoteDialog extends Component {
             <div style={fieldsContainerStyle}>{this.state.selectedNoteType.prompt}</div>
             <div style={fieldsContainerStyle}>
               <TextField
-                style={fieldsContainerStyle}
                 hintText="Note content"
                 multiLine={true}
                 fullWidth={true}
                 rows={8}
+                textareaStyle={{ backgroundColor: Colors.grey50}}
                 value={this.state.newNote.noteText}
                 onChange={this._handleTextFieldChange}
               />
             </div>
           </div>
+            <div>
+              <Subheader>TAGS</Subheader>
+              <div style={basicContainerStyle}>Select one or more tags.</div>
+              <List>
+                {this.state.tagItems}
+              </List>
+            </div>
           </main>
         </Dialog>
       </div>
