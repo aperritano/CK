@@ -1,55 +1,57 @@
 // @flow
 
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import type { ActivityRunnerT, ActivityPackageT } from 'frog-utils';
-import config from './config';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import * as Colors from 'material-ui/styles/colors';
-import { AppBar, FlatButton,  FloatingActionButton} from 'material-ui'
 import ContentAdd from 'material-ui/svg-icons/content/add';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+import { AppBar, FlatButton, FloatingActionButton } from 'material-ui';
+import config from './config';
 
 // note imports
 import NoteGrid from './NoteGrid';
 import NoteDialog from './NoteDialog';
-
-
 
 const meta = {
   name: 'ac-ck-student',
   type: 'react-component'
 };
 
-const muiTheme = getMuiTheme({
-  appBar: {
-    height: 48,
-    fontSize: 12
+const muiTheme = getMuiTheme(
+  {
+    appBar: {
+      height: 48,
+      fontSize: 12
+    },
+    palette: {
+      primary1Color: Colors.orange900,
+      primary2Color: Colors.blue900,
+      primary3Color: Colors.green100
+    }
   },
-  palette: {
-    primary1Color: Colors.orange900,
-    primary2Color: Colors.blue900,
-    primary3Color: Colors.green100,
-  },
-}, {
-  avatar: {
-    borderColor: null,
-  },
-  userAgent: 'all',
-});
+  {
+    avatar: {
+      borderColor: null
+    },
+    userAgent: 'all'
+  }
+);
 
 const dataStructure = {};
 
-const mergeFunction = (object, dataFn) => {};
+// const mergeFunction = (object => {};
 
-export const ActivityRunner = ({ activityData, userInfo, data, dataFn }: ActivityRunnerT) => {
-  return (
-      <MuiThemeProvider muiTheme={muiTheme}>
-            <Welcome {...{ activityData, userInfo, data, dataFn  }}/>
-      </MuiThemeProvider>
-    );
-};
+export const ActivityRunner = ({
+  activityData,
+  userInfo,
+  data,
+  dataFn
+}: ActivityRunnerT) =>
+  <MuiThemeProvider muiTheme={muiTheme}>
+    <Welcome {...{ activityData, userInfo, data, dataFn }} />
+  </MuiThemeProvider>;
 
 export class Welcome extends Component {
   constructor(props) {
@@ -57,16 +59,16 @@ export class Welcome extends Component {
     super(props);
     this.state = {
       open: false,
-      anchorEL: {},
+      anchorEL: {}
     };
     this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
     this._newNoteAction = this._newNoteAction.bind(this);
     this._drawerAction = this._newNoteAction.bind(this);
   }
   _onHandleRequestClose() {
-    console.log('CLoser');
+    // console.log('CLoser');
     this.setState({
-      open: false,
+      open: false
     });
   }
   _drawerAction() {
@@ -74,12 +76,9 @@ export class Welcome extends Component {
   }
   _newNoteAction() {
     this.setState({
-      open: true,
+      open: true
     });
-    console.log('dataFn',this.props);
-  }
-  componentWillMount() {
-
+    // console.log('dataFn', this.props);
   }
   render() {
     const styles = {
@@ -103,7 +102,7 @@ export class Welcome extends Component {
         bottom: 20,
         left: 'auto',
         position: 'fixed',
-        zIndex: 2000,
+        zIndex: 2000
       },
       mainContent: {
         width: '100%',
@@ -115,18 +114,17 @@ export class Welcome extends Component {
         marginLeft: 0,
         display: 'flex',
         flexDirection: 'column',
-        marginTop: 55,
+        marginTop: 55
       }
     };
-    const { userInfo, activityData } = this.props;
-    const data = activityData.data;
+    const { userInfo } = this.props;
     return (
       <div style={styles.uber}>
         <AppBar
           style={styles.appBar}
           title="CK"
-          //title={activityData.config ? activityData.config.brainstormTitle : 'NO TITLE'}
-          //onLeftIconButtonTouchTap={this.drawerAction}
+          // title={activityData.config ? activityData.config.brainstormTitle : 'NO TITLE'}
+          // onLeftIconButtonTouchTap={this.drawerAction}
           iconElementRight={<FlatButton label={userInfo.name} />}
         />
         <div style={styles.gridContent}>
@@ -135,12 +133,16 @@ export class Welcome extends Component {
         <div>
           <FloatingActionButton
             style={styles.floatingLabelStyle}
-            onTouchTap={this._newNoteAction}>
+            onTouchTap={this._newNoteAction}
+          >
             <ContentAdd />
           </FloatingActionButton>
         </div>
-        <NoteDialog open={this.state.open}
-                    onHandleRequestClose={this._onHandleRequestClose}  {...this.props} />
+        <NoteDialog
+          open={this.state.open}
+          onHandleRequestClose={this._onHandleRequestClose}
+          {...this.props}
+        />
       </div>
     );
   }
@@ -152,8 +154,5 @@ export default ({
   config,
   ActivityRunner,
   Dashboard: null,
-  dataStructure,
-  mergeFunction
+  dataStructure
 }: ActivityPackageT);
-
-
