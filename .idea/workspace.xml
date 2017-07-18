@@ -2,15 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03cc7877-224e-4c06-b1cb-f094db98dfee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frog/yarn.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/op/op-argue/src/__tests__/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FROG.iml" afterPath="$PROJECT_DIR$/.idea/FROG.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/config.js" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/test_data.js" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/test_data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-material-ui/src/index.js" afterPath="$PROJECT_DIR$/ac/ac-material-ui/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/client/main.jsx" afterPath="$PROJECT_DIR$/frog/client/main.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-brainstorm/package.json" afterPath="$PROJECT_DIR$/ac/ac-brainstorm/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-brainstorm/src/ActivityRunner.jsx" afterPath="$PROJECT_DIR$/ac/ac-brainstorm/src/ActivityRunner.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-brainstorm/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-brainstorm/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/package.json" afterPath="$PROJECT_DIR$/ac/ac-chat/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/src/Chat.jsx" afterPath="$PROJECT_DIR$/ac/ac-chat/src/Chat.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/src/Dashboard.jsx" afterPath="$PROJECT_DIR$/ac/ac-chat/src/Dashboard.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-chat/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-board/package.json" afterPath="$PROJECT_DIR$/ac/ac-ck-board/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-board/src/board.js" afterPath="$PROJECT_DIR$/ac/ac-ck-board/src/board.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-board/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-ck-board/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-form/package.json" afterPath="$PROJECT_DIR$/ac/ac-form/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-form/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-form/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-iframe/package.json" afterPath="$PROJECT_DIR$/ac/ac-iframe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-iframe/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-iframe/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-induction/src/Images.jsx" afterPath="$PROJECT_DIR$/ac/ac-induction/src/Images.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-induction/src/Induction.jsx" afterPath="$PROJECT_DIR$/ac/ac-induction/src/Induction.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-induction/src/Rules.jsx" afterPath="$PROJECT_DIR$/ac/ac-induction/src/Rules.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-quiz/package.json" afterPath="$PROJECT_DIR$/ac/ac-quiz/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-quiz/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-quiz/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-text/package.json" afterPath="$PROJECT_DIR$/ac/ac-text/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-text/src/index.js" afterPath="$PROJECT_DIR$/ac/ac-text/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-text/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-text/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-video/package.json" afterPath="$PROJECT_DIR$/ac/ac-video/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-video/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-video/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-Dockerfile.js" afterPath="$PROJECT_DIR$/create-Dockerfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog-utils/package.json" afterPath="$PROJECT_DIR$/frog-utils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog-utils/yarn.lock" afterPath="$PROJECT_DIR$/frog-utils/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/.meteor/packages" afterPath="$PROJECT_DIR$/frog/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/.meteor/release" afterPath="$PROJECT_DIR$/frog/.meteor/release" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/.meteor/versions" afterPath="$PROJECT_DIR$/frog/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/Admin.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/Admin.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/App/Body.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/App/Body.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/HelpModal.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/HelpModal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/ActivityPanel.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/ActivityPanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/OperatorPanel.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/OperatorPanel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/index.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/GraphConfigPanel.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/GraphConfigPanel.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/Settings.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/Settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/components/fixedComponents.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/components/fixedComponents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/store/store.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/store/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/Home.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/Home.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/TeacherView/ShowInfo.js" afterPath="$PROJECT_DIR$/frog/imports/ui/TeacherView/ShowInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/TeacherView/StudentList.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/TeacherView/StudentList.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/package.json" afterPath="$PROJECT_DIR$/frog/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/server/runDataflow.js" afterPath="$PROJECT_DIR$/frog/server/runDataflow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial_setup.sh" afterPath="$PROJECT_DIR$/initial_setup.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial_setup_wo_meteor.sh" afterPath="$PROJECT_DIR$/initial_setup_wo_meteor.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op-argue/src/index.js" afterPath="$PROJECT_DIR$/op/op-argue/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op-create-groups/src/index.js" afterPath="$PROJECT_DIR$/op/op-create-groups/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op-distribute/src/index.js" afterPath="$PROJECT_DIR$/op/op-distribute/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upgrade_interactive_all.sh" afterPath="$PROJECT_DIR$/upgrade_interactive_all.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frog/client/main.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -78,11 +128,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-673">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frog/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ac/ac-quiz/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -92,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/frog/imports/ui/GraphEditor/utils/export.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
+              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -159,7 +229,6 @@
         <option value="$PROJECT_DIR$/open_many.sh" />
         <option value="$PROJECT_DIR$/ac/ac-ck-student/yarn.lock" />
         <option value="$PROJECT_DIR$/frog-utils/package.json" />
-        <option value="$PROJECT_DIR$/frog/package.json" />
         <option value="$PROJECT_DIR$/frog/imports/activityTypes.js" />
         <option value="$PROJECT_DIR$/ac/ac-ck-student/src/config.js" />
         <option value="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx.js" />
@@ -174,6 +243,7 @@
         <option value="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" />
         <option value="$PROJECT_DIR$/ac/ac-material-ui/src/index.js" />
         <option value="$PROJECT_DIR$/frog/client/main.jsx" />
+        <option value="$PROJECT_DIR$/frog/package.json" />
       </list>
     </option>
   </component>
@@ -215,9 +285,16 @@
     <handled-path value="$PROJECT_DIR$/op/op-jigsaw/node_modules" />
   </component>
   <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/ac/ac-brainstorm/package.json" />
+    <dismissed value="$PROJECT_DIR$/ac/ac-ck-board/package.json" />
     <dismissed value="$PROJECT_DIR$/ac/ac-ck-student/package.json" />
+    <dismissed value="$PROJECT_DIR$/ac/ac-form/package.json" />
+    <dismissed value="$PROJECT_DIR$/ac/ac-iframe/package.json" />
     <dismissed value="$PROJECT_DIR$/ac/ac-induction/package.json" />
     <dismissed value="$PROJECT_DIR$/ac/ac-material-ui/package.json" />
+    <dismissed value="$PROJECT_DIR$/ac/ac-quiz/package.json" />
+    <dismissed value="$PROJECT_DIR$/ac/ac-text/package.json" />
+    <dismissed value="$PROJECT_DIR$/ac/ac-video/package.json" />
     <dismissed value="$PROJECT_DIR$/frog-utils/package.json" />
     <dismissed value="$PROJECT_DIR$/frog/package.json" />
     <dismissed value="$PROJECT_DIR$/templates/activity/package.json" />
@@ -296,51 +373,6 @@
             <path>
               <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-induction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-induction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-material-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-material-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-quiz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="ac" type="462c0819:PsiDirectoryNode" />
-              <item name="ac-video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
               <item name="frog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,36 +380,6 @@
               <item name="FROG" type="462c0819:PsiDirectoryNode" />
               <item name="frog" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="GraphEditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog" type="462c0819:PsiDirectoryNode" />
-              <item name="imports" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="GraphEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
@@ -399,11 +401,6 @@
             <path>
               <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="material-ui-DefinitelyTyped" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -494,12 +491,12 @@
       <workItem from="1500317947773" duration="2165000" />
       <workItem from="1500400443131" duration="255000" />
       <workItem from="1500400723256" duration="12000" />
-      <workItem from="1500400749488" duration="2664000" />
+      <workItem from="1500400749488" duration="2913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119647000" />
+    <option name="totallyTimeSpent" value="119896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,14 +509,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="28" width="1440" height="874" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18335684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18335684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3918919" sideWeight="0.29337093" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3918919" sideWeight="0.70662904" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3918919" sideWeight="0.70662904" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.105405405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -571,13 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frog/imports/ui/Admin.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1123">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ac/ac-material-ui/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -638,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -880,7 +862,7 @@
         <state relative-caret-position="-156">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#49#90#0" expanded="true" />
+            <element signature="e#49#90#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -890,7 +872,7 @@
         <state relative-caret-position="23">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#10#51#0" expanded="true" />
+            <element signature="e#10#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,7 +882,7 @@
         <state relative-caret-position="153">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
           <folding>
-            <element signature="e#10#51#0" expanded="true" />
+            <element signature="e#10#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,7 +890,7 @@
     <entry file="file://$PROJECT_DIR$/frog/imports/ui/GraphEditor/utils/export.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -918,7 +900,7 @@
     <entry file="file://$PROJECT_DIR$/ac/ac-quiz/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -964,6 +946,22 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

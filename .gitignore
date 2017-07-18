@@ -5,3 +5,5 @@ node_modules/
 /tmp/
 **/.babelrc
 **/npm-debug.log*
+*.iml
+*.iml
