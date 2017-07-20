@@ -2,64 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03cc7877-224e-4c06-b1cb-f094db98dfee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frog/yarn.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/op/op-argue/src/__tests__/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FROG.iml" afterPath="$PROJECT_DIR$/.idea/FROG.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/Main.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-brainstorm/package.json" afterPath="$PROJECT_DIR$/ac/ac-brainstorm/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-brainstorm/src/ActivityRunner.jsx" afterPath="$PROJECT_DIR$/ac/ac-brainstorm/src/ActivityRunner.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-brainstorm/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-brainstorm/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/package.json" afterPath="$PROJECT_DIR$/ac/ac-chat/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/src/Chat.jsx" afterPath="$PROJECT_DIR$/ac/ac-chat/src/Chat.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/src/Dashboard.jsx" afterPath="$PROJECT_DIR$/ac/ac-chat/src/Dashboard.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-chat/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-chat/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-board/package.json" afterPath="$PROJECT_DIR$/ac/ac-ck-board/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-board/src/board.js" afterPath="$PROJECT_DIR$/ac/ac-ck-board/src/board.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-board/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-ck-board/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-form/package.json" afterPath="$PROJECT_DIR$/ac/ac-form/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-form/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-form/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-iframe/package.json" afterPath="$PROJECT_DIR$/ac/ac-iframe/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-iframe/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-iframe/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-induction/src/Images.jsx" afterPath="$PROJECT_DIR$/ac/ac-induction/src/Images.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-induction/src/Induction.jsx" afterPath="$PROJECT_DIR$/ac/ac-induction/src/Induction.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-induction/src/Rules.jsx" afterPath="$PROJECT_DIR$/ac/ac-induction/src/Rules.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-quiz/package.json" afterPath="$PROJECT_DIR$/ac/ac-quiz/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-quiz/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-quiz/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-text/package.json" afterPath="$PROJECT_DIR$/ac/ac-text/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-text/src/index.js" afterPath="$PROJECT_DIR$/ac/ac-text/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-text/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-text/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-video/package.json" afterPath="$PROJECT_DIR$/ac/ac-video/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-video/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-video/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-Dockerfile.js" afterPath="$PROJECT_DIR$/create-Dockerfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog-utils/package.json" afterPath="$PROJECT_DIR$/frog-utils/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog-utils/yarn.lock" afterPath="$PROJECT_DIR$/frog-utils/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/.meteor/packages" afterPath="$PROJECT_DIR$/frog/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/.meteor/release" afterPath="$PROJECT_DIR$/frog/.meteor/release" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/.meteor/versions" afterPath="$PROJECT_DIR$/frog/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/Admin.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/Admin.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/App/Body.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/App/Body.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/HelpModal.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/HelpModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/ActivityPanel.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/ActivityPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/OperatorPanel.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/OperatorPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/index.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/SidePanel/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/GraphConfigPanel.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/GraphConfigPanel.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/Settings.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/TopPanel/Settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/components/fixedComponents.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/components/fixedComponents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/store/store.js" afterPath="$PROJECT_DIR$/frog/imports/ui/GraphEditor/store/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/Home.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/Home.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/TeacherView/ShowInfo.js" afterPath="$PROJECT_DIR$/frog/imports/ui/TeacherView/ShowInfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/imports/ui/TeacherView/StudentList.jsx" afterPath="$PROJECT_DIR$/frog/imports/ui/TeacherView/StudentList.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/package.json" afterPath="$PROJECT_DIR$/ac/ac-ck-student/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" afterPath="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ac/ac-ck-student/yarn.lock" afterPath="$PROJECT_DIR$/ac/ac-ck-student/yarn.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/package.json" afterPath="$PROJECT_DIR$/frog/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/server/runDataflow.js" afterPath="$PROJECT_DIR$/frog/server/runDataflow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial_setup.sh" afterPath="$PROJECT_DIR$/initial_setup.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial_setup_wo_meteor.sh" afterPath="$PROJECT_DIR$/initial_setup_wo_meteor.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op-argue/src/index.js" afterPath="$PROJECT_DIR$/op/op-argue/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op-create-groups/src/index.js" afterPath="$PROJECT_DIR$/op/op-create-groups/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/op/op-distribute/src/index.js" afterPath="$PROJECT_DIR$/op/op-distribute/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upgrade_interactive_all.sh" afterPath="$PROJECT_DIR$/upgrade_interactive_all.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frog/yarn.lock" afterPath="$PROJECT_DIR$/frog/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-scripts.js" afterPath="$PROJECT_DIR$/package-scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,98 +34,104 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ac/ac-material-ui/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="11" column="78" lean-forward="false" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-              <folding>
-                <element signature="e#10#51#0" expanded="true" />
-                <marker date="1500403503000" expanded="true" signature="577:632" ph="{&quot;name&quot;: 'ac-material-ui'...}" />
-                <marker date="1500403503000" expanded="true" signature="650:766" ph="{&quot;type&quot;: 'object'...}" />
-                <marker date="1500403503000" expanded="true" signature="684:764" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="697:760" ph="{&quot;title&quot;: 'What is the title?'...}" />
-                <marker date="1500403503000" expanded="true" signature="828:1004" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="842:886" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="901:1000" ph="{&quot;primary1Color&quot;: orange500...}" />
-                <marker date="1500403503000" expanded="true" signature="1008:1079" ph="{&quot;userAgent&quot;: 'all'...}" />
-                <marker date="1500403503000" expanded="true" signature="1022:1053" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="1141:1249" ph="&lt;MuiThemeProvider/&gt;" />
-                <marker date="1500403503000" expanded="true" signature="1291:2375" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="1314:1395" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="1415:1450" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="1462:2373" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="1483:1952" ph="{...}" />
-                <marker date="1500403503000" expanded="true" signature="1499:1560" ph="{&quot;position&quot;: 'fixed'...}" />
-                <marker date="1500403503000" expanded="true" signature="1574:1640" ph="{&quot;overflow&quot;: 'hidden'...}" />
-                <marker date="1500403503000" expanded="true" signature="1668:1804" ph="{&quot;top&quot;: 'auto'...}" />
-                <marker date="1500403503000" expanded="true" signature="1825:1946" ph="{&quot;width&quot;: '100%'...}" />
-                <marker date="1500403503000" expanded="true" signature="1974:2362" ph="&lt;div/&gt;" />
-                <marker date="1500403503000" expanded="true" signature="2060:2276" ph="&lt;div/&gt;" />
-                <marker date="1500403503000" expanded="true" signature="2076:2261" ph="&lt;FloatingActionButton/&gt;" />
-                <marker date="1500403503000" expanded="true" signature="2285:2348" ph="&lt;div/&gt;" />
-                <marker date="1500403503000" expanded="true" signature="2393:2491" ph="{&quot;id&quot;: 'ac-material-ui'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frog/client/main.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="80" lean-forward="false" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-673">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frog/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ac/ac-quiz/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frog/imports/ui/GraphEditor/utils/export.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5797828">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frog/client/main.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NoteDialog.jsx" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1861">
+                  <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#10#44#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="124">
+                  <caret line="1140" column="24" lean-forward="false" selection-start-line="1140" selection-start-column="24" selection-end-line="1140" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NoteGrid.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="259">
+                  <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="458">
+                  <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#10#36#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NoteDialog.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.jsx" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/Main.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,6 +162,8 @@
       <find>consol</find>
       <find>cons</find>
       <find>imageh</find>
+      <find>menu</find>
+      <find>makeSelectable</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -237,13 +200,14 @@
         <option value="$PROJECT_DIR$/ac/ac-material-ui/package.json" />
         <option value="$PROJECT_DIR$/ac/ac-ck-student/src/test_data.js" />
         <option value="$PROJECT_DIR$/frog/client/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/ac/ac-ck-student/package.json" />
-        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" />
-        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx" />
-        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" />
         <option value="$PROJECT_DIR$/ac/ac-material-ui/src/index.js" />
         <option value="$PROJECT_DIR$/frog/client/main.jsx" />
         <option value="$PROJECT_DIR$/frog/package.json" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/index.js" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/package.json" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/Main.jsx" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx" />
+        <option value="$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx" />
       </list>
     </option>
   </component>
@@ -300,8 +264,8 @@
     <dismissed value="$PROJECT_DIR$/templates/activity/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="28" />
+    <option name="x" value="120" />
+    <option name="y" value="51" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
@@ -357,7 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,6 +336,45 @@
             <path>
               <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-board" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
+              <item name="ac" type="462c0819:PsiDirectoryNode" />
+              <item name="ac-ck-student" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FROG" type="462c0819:PsiDirectoryNode" />
               <item name="frog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,29 +386,24 @@
             <path>
               <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FROG" type="462c0819:PsiDirectoryNode" />
-              <item name="frog-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="FROG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="material-ui-DefinitelyTyped" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,7 +413,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="main.js&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/client/main.jsx&#10;export.js&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/imports/ui/GraphEditor/utils/export.js&#10;startup&#9;null&#9;null&#10;activity&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/imports/activityTypes.js&#10;Drawer&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/material-ui/Drawer/Drawer.js&#10;read&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/event-stream/readme.markdown&#10;readme&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/event-stream/readme.markdown" />
+    <property name="SearchEverywhereHistoryKey" value="note&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/src/NoteDialog.jsx&#10;store&#9;null&#9;null&#10;frog/pac&#9;FILE&#9;file:///Users/aperritano/dev/FROG/package.json&#10;activityT&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/imports/activityTypes.js&#10;packag&#9;FILE&#9;file:///Users/aperritano/dev/FROG/package.json&#10;package&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/package.json&#10;main.js&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/client/main.jsx&#10;export.js&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/imports/ui/GraphEditor/utils/export.js&#10;startup&#9;null&#9;null&#10;activity&#9;FILE&#9;file:///Users/aperritano/dev/FROG/frog/imports/activityTypes.js&#10;Drawer&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/material-ui/Drawer/Drawer.js&#10;read&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/event-stream/readme.markdown&#10;readme&#9;FILE&#9;file:///Users/aperritano/dev/FROG/ac/ac-ck-student/node_modules/event-stream/readme.markdown" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -491,12 +488,14 @@
       <workItem from="1500317947773" duration="2165000" />
       <workItem from="1500400443131" duration="255000" />
       <workItem from="1500400723256" duration="12000" />
-      <workItem from="1500400749488" duration="2913000" />
+      <workItem from="1500400749488" duration="9410000" />
+      <workItem from="1500474352267" duration="14239000" />
+      <workItem from="1500519107954" duration="7480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119896000" />
+    <option name="totallyTimeSpent" value="148112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -508,16 +507,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="28" width="1440" height="874" extended-state="0" />
+    <frame x="120" y="51" width="1440" height="874" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18335684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15585332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3918919" sideWeight="0.29337093" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18648648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3918919" sideWeight="0.70662904" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3918919" sideWeight="0.70662904" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.105405405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13783784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -525,7 +526,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Flow" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -567,76 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ac/ac-material-ui/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/test_data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="113" column="6" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="132" column="16" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/imports/startup/accounts-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/SessionBody.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/obs_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/client/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/imports/ui/App/Body.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog-utils/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1454">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frog/imports/ui/StudentView/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -648,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -736,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="1098" column="18" lean-forward="false" selection-start-line="1098" selection-start-column="18" selection-end-line="1098" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frog-utils/src/generateReactiveFn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1354">
@@ -792,24 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-chat/src/TextInput.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ac/ac-form/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-chat/src/Chat.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -820,20 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-chat/src/Dashboard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frog-utils/dist/generateReactiveFn.js.flow">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -841,67 +729,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc-prettier.js">
+    <entry file="file://$PROJECT_DIR$/ac/ac-text/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+    <entry file="file://$PROJECT_DIR$/frog/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1225">
+        <state relative-caret-position="-112">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#49#90#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#10#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#10#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frog/imports/ui/GraphEditor/utils/export.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ac/ac-quiz/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,32 +748,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="11" column="78" lean-forward="false" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-quiz/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/GraphEditor/utils/export.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/ui/GraphEditor/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3585">
+          <caret line="247" column="20" lean-forward="true" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frog/imports/activityTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1073">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc-prettier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-chat/src/TextInput.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-chat/src/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/obs_detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/obs_container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-board/src/board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-chat/src/Chat.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="132" column="16" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_material-ui_index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1140" column="24" lean-forward="false" selection-start-line="1140" selection-start-column="24" selection-end-line="1140" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#10#51#0" expanded="true" />
-            <marker date="1500403503000" expanded="true" signature="577:632" ph="{&quot;name&quot;: 'ac-material-ui'...}" />
-            <marker date="1500403503000" expanded="true" signature="650:766" ph="{&quot;type&quot;: 'object'...}" />
-            <marker date="1500403503000" expanded="true" signature="684:764" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="697:760" ph="{&quot;title&quot;: 'What is the title?'...}" />
-            <marker date="1500403503000" expanded="true" signature="828:1004" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="842:886" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="901:1000" ph="{&quot;primary1Color&quot;: orange500...}" />
-            <marker date="1500403503000" expanded="true" signature="1008:1079" ph="{&quot;userAgent&quot;: 'all'...}" />
-            <marker date="1500403503000" expanded="true" signature="1022:1053" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="1141:1249" ph="&lt;MuiThemeProvider/&gt;" />
-            <marker date="1500403503000" expanded="true" signature="1291:2375" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="1314:1395" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="1415:1450" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="1462:2373" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="1483:1952" ph="{...}" />
-            <marker date="1500403503000" expanded="true" signature="1499:1560" ph="{&quot;position&quot;: 'fixed'...}" />
-            <marker date="1500403503000" expanded="true" signature="1574:1640" ph="{&quot;overflow&quot;: 'hidden'...}" />
-            <marker date="1500403503000" expanded="true" signature="1668:1804" ph="{&quot;top&quot;: 'auto'...}" />
-            <marker date="1500403503000" expanded="true" signature="1825:1946" ph="{&quot;width&quot;: '100%'...}" />
-            <marker date="1500403503000" expanded="true" signature="1974:2362" ph="&lt;div/&gt;" />
-            <marker date="1500403503000" expanded="true" signature="2060:2276" ph="&lt;div/&gt;" />
-            <marker date="1500403503000" expanded="true" signature="2076:2261" ph="&lt;FloatingActionButton/&gt;" />
-            <marker date="1500403503000" expanded="true" signature="2285:2348" ph="&lt;div/&gt;" />
-            <marker date="1500403503000" expanded="true" signature="2393:2491" ph="{&quot;id&quot;: 'ac-material-ui'...}" />
+            <element signature="e#10#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -942,25 +902,37 @@
     <entry file="file://$PROJECT_DIR$/frog/client/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="80" lean-forward="false" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/Main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="368">
+          <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frog/package.json">
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteDialog.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="-1861">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#10#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ac/ac-ck-student/src/NoteGrid.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding />
         </state>
       </provider>

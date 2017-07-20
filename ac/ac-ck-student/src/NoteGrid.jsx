@@ -1,19 +1,18 @@
 // @flow
 
 import React, { Component } from 'react';
+// import PropTypes from 'prop-types';
 import { Card, CardTitle, CardText } from 'material-ui';
 
+// NoteGrid.propTypes = {
+//   noteData: PropTypes.object.isRequired, // eslint-disable-line forbid-prop-types
+// };
 // const isMobile = false;
 // const defaultMarginLeft = isMobile ? 100 : 200;
 // const marginLeft = true ? defaultMarginLeft : 0;
 
 export default class NoteGrid extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   // Object.keys(this.props.data).forEach(key => {
-  //   //   console.log(key, this.props.data[key]);
-  //   // });
-  // }
+
   render() {
     const cardStyle = {
       width: 270,
@@ -31,17 +30,18 @@ export default class NoteGrid extends Component {
       backgroundColor: 'white'
     };
 
+    console.log('PROPS DATA', this.props);
     return (
       <div>
         <main id="notes" style={containerCardStyle}>
-          {Object.keys(this.props.data).map(key =>
+          {Object.keys(this.props.noteData).map( (key, index) =>
             <Card
-              key={this.props.data[key].note.noteType.noteType.id}
+              key={index}
               style={cardStyle}
             >
               <CardTitle
-                title={this.props.data[key].note.noteType.noteType}
-                subtitle={'by' + this.props.data[key].user.name}
+                title={this.props.noteData[key].noteType.prompt}
+                subtitle={'Author ' + this.props.noteData[key].user.name}
                 style={{
                   position: 'absolute',
                   bottom: 0,
@@ -52,7 +52,7 @@ export default class NoteGrid extends Component {
                 titleStyle={{ fontSize: 16 }}
               />
               <CardText>
-                {this.props.data[key].note.noteText}
+                {this.props.noteData[key].note}
               </CardText>
             </Card>
           )}

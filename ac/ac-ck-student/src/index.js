@@ -1,14 +1,12 @@
 // @flow
 
-import React, { Component } from 'react';
+import React from 'react';
 import type { ActivityRunnerT, ActivityPackageT } from 'frog-utils';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import * as Colors from 'material-ui/styles/colors';
-import ContentAdd from 'material-ui/svg-icons/content/add';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-import { AppBar, FlatButton, FloatingActionButton } from 'material-ui';
 import config from './config';
+import Main from './Main';
 
 // note imports
 import NoteGrid from './NoteGrid';
@@ -41,7 +39,7 @@ const muiTheme = getMuiTheme(
 
 const dataStructure = {};
 
-// const mergeFunction = (object => {};
+const mergeFunction = (object, dataFn) => {}; // eslint-disable-line no-unused-vars
 
 export const ActivityRunner = ({
   activityData,
@@ -50,103 +48,9 @@ export const ActivityRunner = ({
   dataFn
 }: ActivityRunnerT) =>
   <MuiThemeProvider muiTheme={muiTheme}>
-    <Welcome {...{ activityData, userInfo, data, dataFn }} />
+    <Main {...{ activityData, userInfo, data, dataFn }} />
   </MuiThemeProvider>;
 
-export class Welcome extends Component {
-  constructor(props) {
-    injectTapEventPlugin();
-    super(props);
-    this.state = {
-      open: false,
-      anchorEL: {}
-    };
-    this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
-    this._newNoteAction = this._newNoteAction.bind(this);
-    this._drawerAction = this._newNoteAction.bind(this);
-  }
-  _onHandleRequestClose() {
-    // console.log('CLoser');
-    this.setState({
-      open: false
-    });
-  }
-  _drawerAction() {
-    this.setState({ drawer: !this.state.drawer });
-  }
-  _newNoteAction() {
-    this.setState({
-      open: true
-    });
-    // console.log('dataFn', this.props);
-  }
-  render() {
-    const styles = {
-      appBar: {
-        position: 'fixed',
-        flexWrap: 'wrap',
-        zIndex: 1100,
-        width: '100%',
-        display: 'flex',
-        fontFamily: 'Roboto'
-      },
-      uber: {
-        overflow: 'hidden',
-        position: 'absolute',
-        backgroundColor: 'white'
-      },
-      floatingLabelStyle: {
-        margin: 0,
-        top: 'auto',
-        right: 20,
-        bottom: 20,
-        left: 'auto',
-        position: 'fixed',
-        zIndex: 2000
-      },
-      mainContent: {
-        width: '100%',
-        margin: '0 auto',
-        padding: '60px 0',
-        overflow: 'auto !important'
-      },
-      gridContent: {
-        marginLeft: 0,
-        display: 'flex',
-        flexDirection: 'column',
-        marginTop: 55
-      }
-    };
-    const { userInfo } = this.props;
-    return (
-      <div style={styles.uber}>
-        <AppBar
-          style={styles.appBar}
-          title="CK"
-          // title={activityData.config ? activityData.config.brainstormTitle : 'NO TITLE'}
-          // onLeftIconButtonTouchTap={this.drawerAction}
-          iconElementRight={<FlatButton label={userInfo.name} />}
-        />
-        <div style={styles.gridContent}>
-          <NoteGrid {...this.props} />
-        </div>
-        <div>
-          <FloatingActionButton
-            style={styles.floatingLabelStyle}
-            onTouchTap={this._newNoteAction}
-          >
-            <ContentAdd />
-          </FloatingActionButton>
-        </div>
-        <NoteDialog
-          open={this.state.open}
-          onHandleRequestClose={this._onHandleRequestClose}
-          {...this.props}
-        />
-      </div>
-    );
-  }
-}
 
 export default ({
   id: 'ac-ck-student',
@@ -154,5 +58,6 @@ export default ({
   config,
   ActivityRunner,
   Dashboard: null,
-  dataStructure
+  dataStructure,
+  mergeFunction
 }: ActivityPackageT);

@@ -10,6 +10,8 @@
     "ac-brainstorm": "link:../ac/ac-brainstorm",
     "ac-chat": "link:../ac/ac-chat",
     "ac-ck-board": "link:../ac/ac-ck-board",
+    "ac-ck-student": "link:../ac/ac-ck-student",
+    "ac-material-ui": "link:../ac/ac-material-ui",
     "ac-form": "link:../ac/ac-form",
     "ac-iframe": "link:../ac/ac-iframe",
     "ac-induction": "link:../ac/ac-induction",

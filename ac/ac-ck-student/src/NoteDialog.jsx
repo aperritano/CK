@@ -1,7 +1,6 @@
 // @flow
 
-// import { uuid } from 'frog-utils';
-
+import { uuid } from 'frog-utils';
 import React, { Component } from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
@@ -19,97 +18,54 @@ const SelectableList = makeSelectable(List);
 export default class NoteDialog extends Component {
   constructor(props) {
     super(props);
-    const { activityData } = props;
 
-    const tagListStyle = {
-      paddingTop: 16,
-      paddingRight: 1,
-      paddingBottom: 1,
-      paddingLeft: 43,
-      marginBottom: 5
-    };
+    const { activityData } = this.props;
+    const { config } = activityData;
+    const { noteTypes, classTags } = config;
+
+    console.log('note types', config);
 
     this.state = {
-      selectedValue: 1
+      selectedValue: 1,
+      userText: noteTypes[0].sentenceStarter !== undefined ?  noteTypes[0].sentenceStarter : '',
+      userNoteType: noteTypes[0],
     };
 
-    const noteTypes = activityData.config.noteTypes;
-    const classTags = activityData.config.classTags;
+    // console.log('props', this.props, noteTypes, classTags );
+    // const noteTypes = activityData.config.noteTypes;
+    // const classTags = activityData.config.classTags;
+    //
 
-    if (noteTypes !== undefined) {
-      // console.log('here');
-      const items = noteTypes.map((type, index) =>
-        <ListItem key={type.id} value={index + 1} primaryText={type.noteType} />
-      );
-
-      this.state = {
-        selectedNoteType: noteTypes[0],
-        types: noteTypes,
-        newNote: {
-          noteType: noteTypes[0],
-          noteText: noteTypes[0].sentenceStarter,
-          author: this.props.userInfo,
-          tags: []
-        },
-        menuItems: items
-      };
-    } else {
-      const items = [];
-      this.state = {
-        menuItems: items
-      };
-    }
-
-    if (classTags !== undefined) {
-      // console.log('here2');
-      const tagsItems = classTags.map(tag =>
-        <ListItem
-          key={tag.id}
-          style={tagListStyle}
-          leftCheckbox={<Checkbox />}
-          primaryText={tag.title}
-        />
-      );
-
-      this.state = {
-        tagItems: tagsItems
-      };
-    }
 
     this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
     this._onHandleRequestSubmit = this._onHandleRequestSubmit.bind(this);
-    this._onHandleRequestNoteTypeChange = this._onHandleRequestNoteTypeChange.bind(
-      this
-    );
+    this._onHandleRequestNoteTypeChange = this._onHandleRequestNoteTypeChange.bind(this);
     this._handleTextFieldChange = this._handleTextFieldChange.bind(this);
   }
 
-  _onHandleRequestNoteTypeChange(value) {
-    // console.log('value',value);
-    // console.log('state BEFORE',this.state);
-    const nt = this.state.types[value - 1];
+  _onHandleRequestNoteTypeChange(event, value) {
+    const { activityData } = this.props;
+    const { config } = activityData;
+    const { noteTypes } = config;
+
+    console.log('new selected', noteTypes[value-1]);
     this.setState({
       selectedValue: value,
-      selectedNoteType: nt,
-      newNote: {
-        noteType: nt,
-        noteText: nt.sentenceStarter,
-        author: this.props.userInfo,
-        tags: []
-      }
+      userText: noteTypes[value-1].sentenceStarter !== undefined ?  noteTypes[value-1].sentenceStarter : '',
     });
-    // console.log('state notetype',this.state);
   }
-  _handleTextFieldChange(event) {
-    const newText = event.target.value;
+
+  _handleTextFieldChange(event, value) {
+    const { activityData } = this.props;
+    const { config } = activityData;
+    const { noteTypes } = config;
+
     this.setState({
-      newNote: {
-        noteType: this.state.selectedNoteType,
-        noteText: newText,
-        author: this.props.userInfo,
-        tags: []
-      }
+      selectedValue: this.state.selectedValue,
+      userText: value,
+      userNoteType: noteTypes[this.state.selectedValue-1],
     });
+
     // console.log('new text state', this.state);
   }
   _onHandleRequestClose() {
@@ -120,16 +76,17 @@ export default class NoteDialog extends Component {
   _onHandleRequestSubmit() {
     // console.log('we are submitting', this.props);
     // console.log('datafn boject', this.props.dataFn);
-    // const n = { note: this.state.newNote, user: this.props.userInfo };
-    // this.props.dataFn.objInsert(n, uuid());
-    // console.log('DATA', this.props.data);
+    const n = { note: this.state.userText, noteType: this.state.userNoteType, user: this.props.userInfo };
+    this.props.dataFn.objInsert(n, uuid());
+    console.log('DATA', this.props.data);
 
     if (this.props.onHandleRequestClose) {
       this.props.onHandleRequestClose();
     }
   }
   render() {
-    const { open } = this.props;
+
+    // console.log('note types', this.props, noteTypes, activityData, 'state', this.state);
 
     const actions = [
       <FlatButton
@@ -155,6 +112,35 @@ export default class NoteDialog extends Component {
       ...basicContainerStyle,
       width: 250
     };
+    const tagListStyle = {
+      paddingTop: 16,
+      paddingRight: 1,
+      paddingBottom: 1,
+      paddingLeft: 43,
+      marginBottom: 5
+    };
+
+    const { open, activityData } = this.props;
+    const { noteTypes, classTags } = activityData.config;
+
+    let tagItems = [];
+    if (classTags !== undefined) {
+      tagItems = classTags.map(tag =>
+        <ListItem
+          key={tag.id}
+          style={tagListStyle}
+          leftCheckbox={<Checkbox />}
+          primaryText={tag.title}
+        />
+      );
+    }
+
+    let noteItems = [];
+    if (noteTypes !== undefined) {
+      noteItems = noteTypes.map( (noteType, index) =>
+        <ListItem key={index} value={index + 1} primaryText={noteType.noteType}/>
+      );
+    }
 
     return (
       <div>
@@ -178,17 +164,17 @@ export default class NoteDialog extends Component {
                 onChange={this._onHandleRequestNoteTypeChange}
               >
                 <Subheader>NOTE TYPES</Subheader>
-                {this.state.menuItems !== undefined
-                  ? this.state.menuItems
+                {noteItems !== undefined
+                  ? noteItems
                   : <ListItem value={1} primaryText="no notes" />}
               </SelectableList>
             </div>
             <div>
               <Subheader>
-                {this.state.selectedNoteType.noteType.toUpperCase() + ' NOTE'}
+                {noteTypes === undefined ? 'No Selected Note' : (noteTypes[this.state.selectedValue-1].noteType.toUpperCase())}
               </Subheader>
               <div style={fieldsContainerStyle}>
-                {this.state.selectedNoteType.prompt}
+                {noteTypes === undefined ? 'No Prompt' : (noteTypes[this.state.selectedValue-1].prompt)}
               </div>
               <div style={fieldsContainerStyle}>
                 <TextField
@@ -197,7 +183,7 @@ export default class NoteDialog extends Component {
                   fullWidth
                   rows={8}
                   textareaStyle={{ backgroundColor: Colors.grey50 }}
-                  value={this.state.newNote.noteText}
+                  value={this.state.userText}
                   onChange={this._handleTextFieldChange}
                 />
               </div>
@@ -206,9 +192,9 @@ export default class NoteDialog extends Component {
               <Subheader>TAGS</Subheader>
               <div style={basicContainerStyle}>Select one or more tags.</div>
               <List>
-                {this.state.tagItems !== undefined
-                  ? this.state.tagItems
-                  : <ListItem value={1} primaryText="no tags" />}
+                {tagItems !== undefined
+                  ? tagItems
+                  : <ListItem value={1} primaryText="No Tags" />}
               </List>
             </div>
           </main>
