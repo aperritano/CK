@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "material-ui": "^0.18.6",
-    "react-tap-event-plugin": "2.0.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "prop-types": "^15.5.10",
-    "immutability-helper":"^2.3.0"
+    "immutability-helper":"^2.3.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-tap-event-plugin": "2.0.1"
   }
 }

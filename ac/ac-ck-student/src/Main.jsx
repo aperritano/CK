@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import ContentAdd from 'material-ui/svg-icons/content/add';
-import { AppBar, FlatButton, FloatingActionButton } from 'material-ui';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
+import { AppBar, FlatButton } from 'material-ui';
 import NoteGrid from './NoteGrid';
 import NoteDialog from './NoteDialog';
 
@@ -84,14 +85,15 @@ export default class Main extends Component {
         <div style={styles.gridContent}>
           <NoteGrid noteData={data} />
         </div>
-        <div>
+
           <FloatingActionButton
             style={styles.floatingLabelStyle}
             onTouchTap={this._newNoteAction}
+            isKeyboard={false}
           >
             <ContentAdd />
           </FloatingActionButton>
-        </div>
+
         <NoteDialog
           open={this.state.open}
           onHandleRequestClose={this._onHandleRequestClose}
