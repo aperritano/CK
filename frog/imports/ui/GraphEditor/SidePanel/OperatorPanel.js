@@ -1,35 +1,97 @@
 // @flow
-import React from 'react';
+import React, { Component } from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
-import Form from 'react-jsonschema-form';
-import { DropdownButton, MenuItem } from 'react-bootstrap';
-import { ChangeableText } from 'frog-utils';
+import {
+  type operatorPackageT,
+  ChangeableText,
+  EnhancedForm
+} from 'frog-utils';
 
 import { Operators, addOperator } from '/imports/api/activities';
 import { operatorTypes, operatorTypesObj } from '/imports/operatorTypes';
 import { connect } from '../store';
+import ListComponent from './ListComponent';
 
-const ChooseOperatorTypeComp = ({ operator, store: { addHistory } }) => {
-  const select = e => {
-    if (operatorTypesObj[e]) {
-      Operators.update(operator._id, { $set: { operatorType: e } });
-      addHistory();
-    }
-  };
+class ChooseOperatorTypeComp extends Component {
+  state: { expanded: ?string, searchStr: string };
 
-  return (
-    <div>
-      <h3>Please select operator type</h3>
-      <DropdownButton id="selectOperator" onSelect={select} title="Select">
-        {operatorTypes.map(x =>
-          <MenuItem key={x.id} eventKey={x.id}>
-            {x.meta.name}
-          </MenuItem>
-        )}
-      </DropdownButton>
-    </div>
-  );
-};
+  constructor(props) {
+    super(props);
+    this.state = { expanded: null, searchStr: '' };
+  }
+
+  render() {
+    const select = operatorType => {
+      Operators.update(this.props.operator._id, {
+        $set: { operatorType: operatorType.id }
+      });
+      this.props.store.addHistory();
+    };
+
+    const changeSearch = e =>
+      this.setState({
+        expanded: null,
+        searchStr: e.target.value.toLowerCase()
+      });
+
+    const filteredList = operatorTypes.filter(
+      x =>
+        x.meta.name.toLowerCase().includes(this.state.searchStr) ||
+        x.meta.shortDesc.toLowerCase().includes(this.state.searchStr) ||
+        x.meta.description.toLowerCase().includes(this.state.searchStr)
+    );
+
+    return (
+      <div style={{ height: '100%' }}>
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <h4>Please select operator type</h4>
+          <div
+            className="input-group"
+            style={{ top: '5px', left: '10px', width: '250px' }}
+          >
+            <span className="input-group-addon" id="basic-addon1">
+              <span className="glyphicon glyphicon-search" aria-hidden="true" />
+            </span>
+            <input
+              type="text"
+              onChange={changeSearch}
+              className="form-control"
+              placeholder="Search for..."
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        </div>
+        <div
+          className="list-group"
+          style={{ height: '730px', width: '100%', overflow: 'scroll' }}
+        >
+          {filteredList.length === 0
+            ? <div
+                style={{
+                  marginTop: '20px',
+                  marginLeft: '10px',
+                  fontSize: '40px'
+                }}
+              >
+                No result
+              </div>
+            : filteredList.map((x: operatorPackageT) =>
+                <ListComponent
+                  onSelect={() => select(x)}
+                  showExpanded={this.state.expanded === x.id}
+                  expand={() => this.setState({ expanded: x.id })}
+                  key={x.id}
+                  onPreview={() => {}}
+                  object={x}
+                  searchS={this.state.searchStr}
+                  eventKey={x.id}
+                />
+              )}
+        </div>
+      </div>
+    );
+  }
+}
 
 const EditClass = ({ store: { operatorStore: { all } }, operator }) => {
   const graphOperator = all.find(act => act.id === operator._id);
@@ -52,8 +114,9 @@ const EditClass = ({ store: { operatorStore: { all } }, operator }) => {
         </font>
         <hr />
       </div>
-      <Form
+      <EnhancedForm
         schema={operatorTypesObj[operator.operatorType].config}
+        UISchema={operatorTypesObj[operator.operatorType].configUI}
         onChange={data =>
           addOperator(
             operator.operatorType,
@@ -65,7 +128,7 @@ const EditClass = ({ store: { operatorStore: { all } }, operator }) => {
         liveValidate
       >
         <div />
-      </Form>
+      </EnhancedForm>
     </div>
   );
 };

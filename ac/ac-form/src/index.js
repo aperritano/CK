@@ -9,7 +9,29 @@ import config from './config';
 
 const meta = {
   name: 'Simple form',
-  type: 'react-component'
+  type: 'react-component',
+  shortDesc: 'Form with text fields',
+  description:
+    'Creates a form with specified text fields, optionally allow students to submit multiple forms.',
+  exampleData: [
+    {
+      title: 'Sample form',
+      config: {
+        questions:
+          'What is the capital or Iraq?,How many people live in the Niger delta?',
+        multiple: false
+      },
+      activityData: {}
+    },
+    {
+      title: 'Allow multiple submissions',
+      config: {
+        questions: 'How can we improve the environment?',
+        multiple: true
+      },
+      activityData: {}
+    }
+  ]
 };
 
 const modifyForm = (questions, title) => {

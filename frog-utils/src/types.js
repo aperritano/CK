@@ -52,7 +52,13 @@ export type ActivityRunnerT = {
 
 export type ActivityPackageT = {
   id: string,
-  meta: { type: string, name: string },
+  meta: {
+    type: string,
+    name: string,
+    shortDesc: string,
+    description: string,
+    exampleData: Array<any>
+  },
   config: Object,
   mergeFunction?: (dataUnitStructT, Object) => void,
   ActivityRunner: (x: ActivityRunnerT) => React$Component<*> | React$Element<*>
@@ -60,14 +66,24 @@ export type ActivityPackageT = {
 
 export type productOperatorT = {
   id: string,
-  meta: { type: string, name: string },
+  meta: {
+    type: string,
+    name: string,
+    shortDesc: string,
+    description: string
+  },
   config: Object,
   operator: (configData: Object, object: ObjectT) => activityDataT
 };
 
 export type socialOperatorT = {
   id: string,
-  meta: { type: string, name: string },
+  meta: {
+    type: string,
+    name: string,
+    shortDesc: string,
+    description: string
+  },
   config: Object,
   operator: (configData: Object, object: ObjectT) => socialStructureT
 };

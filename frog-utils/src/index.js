@@ -3,7 +3,9 @@ import React from 'react';
 
 import { compose, withHandlers, withState } from 'recompose';
 
+export { default as EnhancedForm } from './EnhancedForm';
 export { generateReactiveFn, inMemoryReactive } from './generateReactiveFn';
+export { Highlight } from './highlightSubstring';
 export { default as uuid } from 'cuid';
 export { default as colorRange } from './colorRange';
 export { default as unrollProducts } from './unrollProducts';
@@ -89,3 +91,9 @@ export const withVisibility = compose(
     toggleVisibility: ({ setVisibility }) => () => setVisibility(n => !n)
   })
 );
+
+export const flattenOne = (ary: any[]): any[] =>
+  ary.reduce(
+    (acc: any[], x: any) => (Array.isArray(x) ? [...acc, ...x] : [...acc, x]),
+    []
+  );

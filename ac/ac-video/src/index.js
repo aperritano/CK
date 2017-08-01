@@ -8,7 +8,21 @@ import Dashboard from './dashboard';
 
 export const meta = {
   name: 'Video player',
-  type: 'react-component'
+  type: 'react-component',
+  shortDesc: 'Video player',
+  description:
+    'Video player configurable with URL, and some settings (autoplay etc).',
+  exampleData: [
+    {
+      title: 'Sample video',
+      config: {
+        url: 'https://www.youtube.com/watch?v=RHq6bEgeZD4',
+        playing: true,
+        loop: false
+      },
+      activityData: {}
+    }
+  ]
 };
 
 export const config = {
