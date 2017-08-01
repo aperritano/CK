@@ -2,15 +2,24 @@
 
 import { uuid } from 'frog-utils';
 import React, { Component } from 'react';
-import Dialog from 'material-ui/Dialog';
-import FlatButton from 'material-ui/FlatButton';
+import Button from 'material-ui/Button';
+import * as Colors from 'material-ui/colors';
 import TextField from 'material-ui/TextField';
 import Checkbox from 'material-ui/Checkbox';
-import { List, ListItem, makeSelectable } from 'material-ui/List';
-import Subheader from 'material-ui/Subheader';
-import * as Colors from 'material-ui/styles/colors';
+import List, {
+  ListItem,
+  ListItemIcon,
+  ListItemSecondaryAction,
+  ListItemText,
+  ListSubheader,
+} from 'material-ui/List';
+import Dialog, {
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+} from 'material-ui/Dialog';
 // import update from 'immutability-helper';
-const SelectableList = makeSelectable(List);
 
 /**
  * A modal dialog can only be closed by selecting one of the actions.
@@ -26,44 +35,59 @@ export default class NoteDialog extends Component {
     console.log('note types', config);
 
     this.state = {
-      selectedValue: 1,
+      selectedValue: 0,
       userText: noteTypes[0].sentenceStarter !== undefined ?  noteTypes[0].sentenceStarter : '',
       userNoteType: noteTypes[0],
+      userTags: [],
     };
-
-    // console.log('props', this.props, noteTypes, classTags );
-    // const noteTypes = activityData.config.noteTypes;
-    // const classTags = activityData.config.classTags;
-    //
-
 
     this._onHandleRequestClose = this._onHandleRequestClose.bind(this);
     this._onHandleRequestSubmit = this._onHandleRequestSubmit.bind(this);
-    this._onHandleRequestNoteTypeChange = this._onHandleRequestNoteTypeChange.bind(this);
+    // this._onHandleRequestNoteTypeChange = this._onHandleRequestNoteTypeChange.bind(this);
     this._handleTextFieldChange = this._handleTextFieldChange.bind(this);
   }
 
-  _onHandleRequestNoteTypeChange(event, value) {
+  handleListItemClick = value => {
     const { activityData } = this.props;
     const { config } = activityData;
     const { noteTypes } = config;
 
-    console.log('new selected', noteTypes[value-1]);
+    console.log('new selected', noteTypes[value]);
     this.setState({
       selectedValue: value,
-      userText: noteTypes[value-1].sentenceStarter !== undefined ?  noteTypes[value-1].sentenceStarter : '',
+      userNoteType: noteTypes[value],
+      userText: noteTypes[value].sentenceStarter !== undefined ?  noteTypes[value].sentenceStarter : '',
     });
-  }
+  };
 
-  _handleTextFieldChange(event, value) {
+  handleToggle = (event, index) => {
+    const { userTags } = this.state;
+    const currentIndex = userTags.indexOf(index);
+    const newChecked = [...userTags];
+
+    if (currentIndex === -1) {
+      newChecked.push(index);
+    } else {
+      newChecked.splice(currentIndex, 1);
+    }
+
+
+    this.setState({
+      userTags: newChecked,
+    });
+
+    console.log('New User tags', this.state, 'newChecked', newChecked);
+  };
+
+  _handleTextFieldChange(event) {
     const { activityData } = this.props;
     const { config } = activityData;
     const { noteTypes } = config;
 
     this.setState({
       selectedValue: this.state.selectedValue,
-      userText: value,
-      userNoteType: noteTypes[this.state.selectedValue-1],
+      userText: event.target.value,
+      userNoteType: noteTypes[this.state.selectedValue],
     });
 
     // console.log('new text state', this.state);
@@ -74,32 +98,29 @@ export default class NoteDialog extends Component {
     }
   }
   _onHandleRequestSubmit() {
-    // console.log('we are submitting', this.props);
+    const { activityData } = this.props;
+    const { config } = activityData;
+    const { noteTypes, classTags } = config;
+    const {userTags} = this.state;
+
+
+    const foundTags = userTags.map((value, index) =>
+        classTags[value]
+    );
+
+    console.log('we are submitting', 'FOUND', foundTags, this.props);
     // console.log('datafn boject', this.props.dataFn);
-    const n = { note: this.state.userText, noteType: this.state.userNoteType, user: this.props.userInfo };
+
+    const n = { note: this.state.userText, noteType: this.state.userNoteType, user: this.props.userInfo, userTags: foundTags };
+    console.log('----------------DATA BEFORE',n);
     this.props.dataFn.objInsert(n, uuid());
-    console.log('DATA', this.props.data);
+    console.log('----------------DATA AFTER', this.props.data);
 
     if (this.props.onHandleRequestClose) {
       this.props.onHandleRequestClose();
     }
   }
   render() {
-
-    // console.log('note types', this.props, noteTypes, activityData, 'state', this.state);
-
-    const actions = [
-      <FlatButton
-        key="submit"
-        label="SUBMIT"
-        onTouchTap={this._onHandleRequestSubmit}
-      />,
-      <FlatButton
-        key="close"
-        label="CLOSE"
-        onTouchTap={this._onHandleRequestClose}
-      />
-    ];
     const containerCardStyle = {
       display: 'flex',
       flexWrap: 'wrap',
@@ -122,82 +143,88 @@ export default class NoteDialog extends Component {
 
     const { open, activityData } = this.props;
     const { noteTypes, classTags } = activityData.config;
-
     let tagItems = [];
     if (classTags !== undefined) {
-      tagItems = classTags.map(tag =>
-        <ListItem
-          key={tag.id}
-          style={tagListStyle}
-          leftCheckbox={<Checkbox />}
-          primaryText={tag.title}
-        />
+      tagItems = classTags.map((value, index) =>
+        <ListItem dense
+                  button
+                  onClick={event => this.handleToggle(event, index)} key={index} >
+          <Checkbox
+            checked={this.state.userTags.indexOf(index) !== -1}
+            tabIndex="-1"
+            disableRipple
+          />
+          <ListItemText primary={value.title}/>
+        </ListItem>
       );
     }
 
     let noteItems = [];
     if (noteTypes !== undefined) {
       noteItems = noteTypes.map( (noteType, index) =>
-        <ListItem key={index} value={index + 1} primaryText={noteType.noteType}/>
+        <ListItem
+                  button
+                  divider
+                  onClick={() => this.handleListItemClick(index)}
+                  key={index}>
+          <ListItemText primary={noteType.noteType} />
+        </ListItem>
       );
     }
 
     return (
       <div>
-        <Dialog
-          title="Create New Note"
-          actions={actions}
-          modal
-          //  contentStyle={customContentStyle}
-          //  bodyStyle={bodyStyle}
-          // titleStyle={titleStyle}
-          open={open}
-          onRequestClose={this._onHandleRequestClose}
-        >
-
-          <main id="notes" style={containerCardStyle}>
+        <Dialog open={open} onRequestClose={this._onHandleRequestClose}>
+          <DialogTitle>
+            {"Create New Note"}
+          </DialogTitle>
+          <DialogContent>
+            <main id="notes" style={containerCardStyle}>
 
             <div>
-              <SelectableList
-                defaultValue={1}
-                value={this.state.selectedValue}
-                onChange={this._onHandleRequestNoteTypeChange}
-              >
-                <Subheader>NOTE TYPES</Subheader>
-                {noteItems !== undefined
-                  ? noteItems
-                  : <ListItem value={1} primaryText="no notes" />}
-              </SelectableList>
-            </div>
+            <div>NOTE TYPES</div>
+            <List>
+              {noteItems}
+            </List>
+          </div>
             <div>
-              <Subheader>
-                {noteTypes === undefined ? 'No Selected Note' : (noteTypes[this.state.selectedValue-1].noteType.toUpperCase())}
-              </Subheader>
               <div style={fieldsContainerStyle}>
-                {noteTypes === undefined ? 'No Prompt' : (noteTypes[this.state.selectedValue-1].prompt)}
+                {noteTypes === undefined ? 'No Selected Note' : (noteTypes[this.state.selectedValue].noteType.toUpperCase()) + ' NOTE'}
               </div>
+              <br/>
               <div style={fieldsContainerStyle}>
                 <TextField
-                  hintText="Note content"
-                  multiLine
+                  label={noteTypes === undefined ? 'No Prompt' : (noteTypes[this.state.selectedValue].prompt)}
+                  multiline
+                  margin="normal"
                   fullWidth
                   rows={8}
-                  textareaStyle={{ backgroundColor: Colors.grey50 }}
+                  style={{ backgroundColor: Colors.grey }}
                   value={this.state.userText}
                   onChange={this._handleTextFieldChange}
                 />
               </div>
             </div>
-            <div>
-              <Subheader>TAGS</Subheader>
-              <div style={basicContainerStyle}>Select one or more tags.</div>
-              <List>
-                {tagItems !== undefined
-                  ? tagItems
-                  : <ListItem value={1} primaryText="No Tags" />}
-              </List>
-            </div>
-          </main>
+              <div>
+                <div style={basicContainerStyle}>TAGS</div>
+
+                <div style={basicContainerStyle}>Select one or more tags.</div>
+                <List>
+                  {tagItems !== undefined
+                    ? tagItems
+                    : <ListItem value={1} primaryText="No Tags" />}
+                </List>
+              </div>
+            </main>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={this._onHandleRequestClose} color="primary">
+              Cancel
+            </Button>
+            <Button onClick={this._onHandleRequestSubmit} color="primary">
+              Submit
+            </Button>
+          </DialogActions>
         </Dialog>
       </div>
     );

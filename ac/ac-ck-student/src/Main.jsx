@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-import ContentAdd from 'material-ui/svg-icons/content/add';
-import FloatingActionButton from 'material-ui/FloatingActionButton';
-import { AppBar, FlatButton } from 'material-ui';
+import { withStyles, createStyleSheet } from 'material-ui/styles';
+import AppBar from 'material-ui/AppBar';
+import Toolbar from 'material-ui/Toolbar';
+import Typography from 'material-ui/Typography';
+import Button from 'material-ui/Button';
+import IconButton from 'material-ui/IconButton';
+import MenuIcon from 'material-ui-icons/Menu';
+import ModeEditIcon from 'material-ui-icons/ModeEdit';
+
 import NoteGrid from './NoteGrid';
 import NoteDialog from './NoteDialog';
 
 export default class Main extends Component {
   constructor(props) {
-    injectTapEventPlugin();
     super(props);
     this.state = {
       open: false,
@@ -28,9 +32,11 @@ export default class Main extends Component {
     this.setState({ drawer: !this.state.drawer });
   }
   _newNoteAction() {
+
     this.setState({
       open: true
     });
+    console.log('newNote', this.state);
   }
 
   render() {
@@ -44,9 +50,13 @@ export default class Main extends Component {
         fontFamily: 'Roboto'
       },
       uber: {
-        overflow: 'hidden',
-        position: 'absolute',
-        backgroundColor: 'white'
+       overflow: 'hidden',
+       position: 'absolute',
+        backgroundColor: 'white',
+        width: '100%',
+      },
+      flex: {
+        flex: 1,
       },
       floatingLabelStyle: {
         margin: 0,
@@ -75,30 +85,34 @@ export default class Main extends Component {
     const { userInfo } = this.props;
     return (
       <div style={styles.uber}>
-        <AppBar
-          style={styles.appBar}
-          title="CK"
-          // title={activityData.config ? activityData.config.brainstormTitle : 'NO TITLE'}
-          // onLeftIconButtonTouchTap={this.drawerAction}
-          iconElementRight={<FlatButton label={userInfo.name} />}
-        />
+        <AppBar position="static" style={styles.appBar}>
+          <Toolbar>
+            <IconButton color="contrast" aria-label="Menu">
+              <MenuIcon />
+            </IconButton>
+            <Typography type="title" color="inherit" style={styles.flex}>
+              CK
+            </Typography>
+            <Button color="contrast">{userInfo.name}</Button>
+          </Toolbar>
+        </AppBar>
         <div style={styles.gridContent}>
           <NoteGrid noteData={data} />
         </div>
-
-          <FloatingActionButton
-            style={styles.floatingLabelStyle}
-            onTouchTap={this._newNoteAction}
-            isKeyboard={false}
-          >
-            <ContentAdd />
-          </FloatingActionButton>
-
+        <div>
+          <Button fab color="accent"
+                  style={styles.floatingLabelStyle}
+                  onClick={() =>
+                    this.setState({ open: true })}>
+            <ModeEditIcon />
+          </Button>
+        </div>
         <NoteDialog
           open={this.state.open}
           onHandleRequestClose={this._onHandleRequestClose}
           { ...{ activityData, data, dataFn, userInfo }}
         />
+
       </div>
     );
   }

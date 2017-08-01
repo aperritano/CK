@@ -2,7 +2,8 @@
 
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
-import { Card, CardTitle, CardText } from 'material-ui';
+import Card, { CardActions, CardContent } from 'material-ui/Card';
+import Typography from 'material-ui/Typography';
 
 // NoteGrid.propTypes = {
 //   noteData: PropTypes.object.isRequired, // eslint-disable-line forbid-prop-types
@@ -10,7 +11,9 @@ import { Card, CardTitle, CardText } from 'material-ui';
 // const isMobile = false;
 // const defaultMarginLeft = isMobile ? 100 : 200;
 // const marginLeft = true ? defaultMarginLeft : 0;
-
+/**
+ * A modal dialog can only be closed by selecting one of the actions.
+ */
 export default class NoteGrid extends Component {
 
   render() {
@@ -35,25 +38,27 @@ export default class NoteGrid extends Component {
       <div>
         <main id="notes" style={containerCardStyle}>
           {Object.keys(this.props.noteData).map( (key, index) =>
-            <Card
-              key={index}
-              style={cardStyle}
-            >
-              <CardTitle
-                title={this.props.noteData[key].noteType.prompt}
-                subtitle={'Author ' + this.props.noteData[key].user.name}
-                style={{
-                  position: 'absolute',
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  background: 'rgba(255, 255, 255, 0.6)'
-                }}
-                titleStyle={{ fontSize: 16 }}
-              />
-              <CardText>
-                {this.props.noteData[key].note}
-              </CardText>
+            <Card key={index}
+                   style={cardStyle}>
+              <CardContent>
+                <Typography type="headline" component="h2">
+                  {this.props.noteData[key].noteType.noteType.toUpperCase() + ' NOTE'}
+                </Typography>
+                <Typography type="body1" >
+                  {this.props.noteData[key].noteType.prompt}
+                </Typography>
+                <Typography type="body1" >
+                  {this.props.noteData[key].note}
+                </Typography>
+                <br/>
+                <Typography type="body1" >
+                  {this.props.noteData[key].userTags === undefined ? 'No tags' : 'Tags ' + JSON.stringify(this.props.noteData[key].userTags.map((value, index) => value))}
+                </Typography>
+                <br/>
+                <Typography type="body1" >
+                  {'Author ' + this.props.noteData[key].user.name}
+                </Typography>
+              </CardContent>
             </Card>
           )}
         </main>
